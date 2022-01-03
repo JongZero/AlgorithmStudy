@@ -1,0 +1,535 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\09">
+      <UniqueIdentifier>{761e62e7-0767-4fe8-9e50-c266affdf24f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09\09_09">
+      <UniqueIdentifier>{8dcef0ca-2e58-4a9c-953d-831ae5771856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09\09_11">
+      <UniqueIdentifier>{13ab8f2c-a9df-41d4-ba0e-3dc475762e8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09\09_12">
+      <UniqueIdentifier>{ca23397b-1209-4d87-ae74-ca70648f01cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09\09_13">
+      <UniqueIdentifier>{c9fe48fc-c1d4-4e46-a5be-65a7c933e303}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09\09_14">
+      <UniqueIdentifier>{134873b3-24c8-47d9-b6fa-7869da3f7768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09\09_15">
+      <UniqueIdentifier>{927085b0-87a2-48ed-aa41-2c7aa9d9c66b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09\09_16">
+      <UniqueIdentifier>{6fabceaf-51a1-4578-b24e-fd89293e7dad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09\09_18">
+      <UniqueIdentifier>{ff841592-b0fa-4310-9425-fb5882282fad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09\09_19">
+      <UniqueIdentifier>{711fa378-ad9c-4677-aa66-7cea43b34847}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09\09_20">
+      <UniqueIdentifier>{285851ad-0829-4191-a3c2-5d352dadcd25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09\09_21">
+      <UniqueIdentifier>{92ae0dc1-e2ef-476f-ae53-1fbd43582881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09\09_23">
+      <UniqueIdentifier>{0893a2a6-a917-4227-955b-ee1765a3d752}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09\09_24">
+      <UniqueIdentifier>{0948f395-957d-4392-9f8f-3a0d4fd7fb5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09\09_25">
+      <UniqueIdentifier>{4bfcd27a-11a8-4f52-bd8f-2b810a3a890f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09\09_26">
+      <UniqueIdentifier>{1dceb423-9394-4711-92bb-828a20b0d5c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09\09_27">
+      <UniqueIdentifier>{3d8b11b5-0cbc-4bc5-98c9-cbc425cc6195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09\09_28">
+      <UniqueIdentifier>{4f880695-69b2-4e86-a745-b576e04f64be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09\09_29">
+      <UniqueIdentifier>{45319182-bcd3-47c2-8e31-68b1159b7fd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09\09_30">
+      <UniqueIdentifier>{952e5db1-6ed8-4c88-90fe-faa81fddf65f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10">
+      <UniqueIdentifier>{6938f422-51b4-4d06-b66d-ba1a63c26514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10\10_01">
+      <UniqueIdentifier>{1ff45a3a-54b6-4d50-9d8f-26751b7e4b69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10\10_02">
+      <UniqueIdentifier>{9bd254e9-6151-4295-a4bc-f3be6f0213e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10\10_03">
+      <UniqueIdentifier>{f72f275e-d13c-4524-8441-1115578d4cb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10\10_04">
+      <UniqueIdentifier>{5cd7fe6c-ea5e-4b58-bab7-1655a8ad2abc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10\10_05">
+      <UniqueIdentifier>{ff0562eb-4d7c-45a1-a3c6-98311dca2a95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10\10_06">
+      <UniqueIdentifier>{625a17ea-61ff-43e3-b01b-4b2b5228f588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10\10_07">
+      <UniqueIdentifier>{d703ae00-d103-41ed-bbe1-0dec99836d35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10\10_08">
+      <UniqueIdentifier>{b452ab8b-be45-496d-8831-98b83b60bb23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10\10_09">
+      <UniqueIdentifier>{3ff063b9-1dcc-4b60-b2e7-e5aaba63e83c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10\10_10">
+      <UniqueIdentifier>{aaf01df5-8a5d-43f4-b107-908d77313274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10\10_11">
+      <UniqueIdentifier>{a09a45ce-3227-4301-9fd4-6c3c1871d738}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10\10_12">
+      <UniqueIdentifier>{7bf8ae70-b01a-48ce-9851-f0a2fb40278f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10\10_13">
+      <UniqueIdentifier>{939ece3f-0735-4fc4-bf3a-dae611494151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10\10_14">
+      <UniqueIdentifier>{e6b9bba8-9656-4ffa-b855-41d38cdda3d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10\10_15">
+      <UniqueIdentifier>{30a562cd-e671-481e-8400-ddce626e4ab6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10\10_16">
+      <UniqueIdentifier>{5a6e8d15-32a3-43c4-b775-d995d05a01d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10\10_17">
+      <UniqueIdentifier>{e35eaf82-ba05-4737-ba42-cd43504cc444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10\10_18">
+      <UniqueIdentifier>{8c7ee610-850e-4105-8ccd-0be2a9f8de3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10\10_19">
+      <UniqueIdentifier>{f9d5dfe9-716c-4828-a82e-790c5d6428fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10\10_20">
+      <UniqueIdentifier>{f868f532-373b-4644-8f1c-4a3605f1fb61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10\10_21">
+      <UniqueIdentifier>{e5acb164-3f0f-4866-98cf-aa619eef8918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10\10_22">
+      <UniqueIdentifier>{67b57917-913e-4861-ba8e-1dd959f97633}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10\10_23">
+      <UniqueIdentifier>{4ee32ce8-a1e8-4c26-a8f9-4841b30ab677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10\10_24">
+      <UniqueIdentifier>{d19eb185-061c-4bed-a98e-516682956980}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\미해결문제">
+      <UniqueIdentifier>{77b442a8-9173-45ac-a75a-2c5024e499c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10\10_25">
+      <UniqueIdentifier>{4bcc14d5-faeb-4f3f-9114-752194c17643}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10\10_26">
+      <UniqueIdentifier>{2b123ca6-d484-4008-b60a-f1f6c3575fb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10\10_27">
+      <UniqueIdentifier>{5af405d2-72a8-4447-8c82-c6d94a86bcdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10\10_28">
+      <UniqueIdentifier>{f7a3ff49-abd5-4693-97f7-ff23c4926fea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10\10_29">
+      <UniqueIdentifier>{7e20c34f-d4e6-4999-94a8-da203a537956}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10\10_30">
+      <UniqueIdentifier>{9be06f31-556d-4128-a786-05bdda58998d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10\10_31">
+      <UniqueIdentifier>{c9bb004e-22d1-4de1-9233-9eb01934bd98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11">
+      <UniqueIdentifier>{3231ec22-21b3-4617-b816-7cebc4264657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11\11_01">
+      <UniqueIdentifier>{40b6c097-4e97-461b-a38f-e05a3e96dd64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11\11_02">
+      <UniqueIdentifier>{b1f46bf9-c745-43d1-8c3b-b0287ad4121c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11\11_03">
+      <UniqueIdentifier>{8c57d1e6-ba6d-4322-bd3e-34a52f58ce68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11\11_04">
+      <UniqueIdentifier>{e0a61c22-a814-4408-ade6-188433af13ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11\11_05">
+      <UniqueIdentifier>{56974318-44d9-4c89-86bc-f836db6187f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11\11_06">
+      <UniqueIdentifier>{34940964-4d8f-4a1c-8dcb-b0b05722d598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11\11_07">
+      <UniqueIdentifier>{7e64deec-7c6a-4ac5-b493-16b3c1b2e76b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11\11_08">
+      <UniqueIdentifier>{3753cbc6-fcde-4f10-b577-17acc97ac0c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11\11_09">
+      <UniqueIdentifier>{b830d4a9-b4a9-4a3f-ada4-733de3a1fbe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11\11_10">
+      <UniqueIdentifier>{771b8397-a2d0-4b68-a310-dc247a3a5c81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11\11_11">
+      <UniqueIdentifier>{69222986-6a98-45cb-9b64-69418074a20a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11\11_12">
+      <UniqueIdentifier>{31e9ce02-0e64-4da2-879a-9cc411b14494}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11\11_13">
+      <UniqueIdentifier>{e4e555b1-044c-4e93-bf00-ff0168c6527a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11\11_14">
+      <UniqueIdentifier>{5f772595-d8e4-4ddb-abc5-92d6cd9f05d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11\11_15">
+      <UniqueIdentifier>{57f10bc5-9a0b-4773-9a76-a538b91cb259}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11\11_16">
+      <UniqueIdentifier>{5a22fd8b-92f7-4497-9c5d-6b403873eba3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11\11_17">
+      <UniqueIdentifier>{7f92244a-a9ef-4328-9f57-820efc075e52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11\11_18">
+      <UniqueIdentifier>{e627bef2-dca3-4abe-a50e-3d5ec713e279}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11\11_19">
+      <UniqueIdentifier>{44009ce5-60e5-4827-bd9b-5ca8d4e381eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11\11_20">
+      <UniqueIdentifier>{436bb9c5-be31-451c-8dfc-b88c3a7415d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11\11_21">
+      <UniqueIdentifier>{594d1c43-e412-43cc-ac43-b1a0103212d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11\11_22">
+      <UniqueIdentifier>{b020c125-0f95-4a93-b857-2a8e98a23d23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11\11_23">
+      <UniqueIdentifier>{f30014fc-3834-4434-917c-5b3cd15871fc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="1008.cpp">
+      <Filter>소스 파일\09\09_09</Filter>
+    </ClCompile>
+    <ClCompile Include="10869.cpp">
+      <Filter>소스 파일\09\09_11</Filter>
+    </ClCompile>
+    <ClCompile Include="10430.cpp">
+      <Filter>소스 파일\09\09_11</Filter>
+    </ClCompile>
+    <ClCompile Include="2588.cpp">
+      <Filter>소스 파일\09\09_11</Filter>
+    </ClCompile>
+    <ClCompile Include="1330.cpp">
+      <Filter>소스 파일\09\09_12</Filter>
+    </ClCompile>
+    <ClCompile Include="9498.cpp">
+      <Filter>소스 파일\09\09_12</Filter>
+    </ClCompile>
+    <ClCompile Include="2753.cpp">
+      <Filter>소스 파일\09\09_12</Filter>
+    </ClCompile>
+    <ClCompile Include="14681.cpp">
+      <Filter>소스 파일\09\09_13</Filter>
+    </ClCompile>
+    <ClCompile Include="2884.cpp">
+      <Filter>소스 파일\09\09_13</Filter>
+    </ClCompile>
+    <ClCompile Include="2739.cpp">
+      <Filter>소스 파일\09\09_14</Filter>
+    </ClCompile>
+    <ClCompile Include="10950.cpp">
+      <Filter>소스 파일\09\09_14</Filter>
+    </ClCompile>
+    <ClCompile Include="8393.cpp">
+      <Filter>소스 파일\09\09_14</Filter>
+    </ClCompile>
+    <ClCompile Include="15552.cpp">
+      <Filter>소스 파일\09\09_14</Filter>
+    </ClCompile>
+    <ClCompile Include="2741.cpp">
+      <Filter>소스 파일\09\09_15</Filter>
+    </ClCompile>
+    <ClCompile Include="2742.cpp">
+      <Filter>소스 파일\09\09_15</Filter>
+    </ClCompile>
+    <ClCompile Include="11021.cpp">
+      <Filter>소스 파일\09\09_15</Filter>
+    </ClCompile>
+    <ClCompile Include="11022.cpp">
+      <Filter>소스 파일\09\09_15</Filter>
+    </ClCompile>
+    <ClCompile Include="2438.cpp">
+      <Filter>소스 파일\09\09_16</Filter>
+    </ClCompile>
+    <ClCompile Include="2439.cpp">
+      <Filter>소스 파일\09\09_16</Filter>
+    </ClCompile>
+    <ClCompile Include="10871.cpp">
+      <Filter>소스 파일\09\09_16</Filter>
+    </ClCompile>
+    <ClCompile Include="10952.cpp">
+      <Filter>소스 파일\09\09_18</Filter>
+    </ClCompile>
+    <ClCompile Include="10951.cpp">
+      <Filter>소스 파일\09\09_19</Filter>
+    </ClCompile>
+    <ClCompile Include="1110.cpp">
+      <Filter>소스 파일\09\09_19</Filter>
+    </ClCompile>
+    <ClCompile Include="10818.cpp">
+      <Filter>소스 파일\09\09_20</Filter>
+    </ClCompile>
+    <ClCompile Include="2562.cpp">
+      <Filter>소스 파일\09\09_20</Filter>
+    </ClCompile>
+    <ClCompile Include="11654.cpp">
+      <Filter>소스 파일\09\09_21</Filter>
+    </ClCompile>
+    <ClCompile Include="2577.cpp">
+      <Filter>소스 파일\09\09_23</Filter>
+    </ClCompile>
+    <ClCompile Include="1546.cpp">
+      <Filter>소스 파일\09\09_23</Filter>
+    </ClCompile>
+    <ClCompile Include="8958.cpp">
+      <Filter>소스 파일\09\09_24</Filter>
+    </ClCompile>
+    <ClCompile Include="4344.cpp">
+      <Filter>소스 파일\09\09_25</Filter>
+    </ClCompile>
+    <ClCompile Include="15596.cpp">
+      <Filter>소스 파일\09\09_26</Filter>
+    </ClCompile>
+    <ClCompile Include="4673.cpp">
+      <Filter>소스 파일\09\09_27</Filter>
+    </ClCompile>
+    <ClCompile Include="1065.cpp">
+      <Filter>소스 파일\09\09_28</Filter>
+    </ClCompile>
+    <ClCompile Include="11720.cpp">
+      <Filter>소스 파일\09\09_29</Filter>
+    </ClCompile>
+    <ClCompile Include="10809.cpp">
+      <Filter>소스 파일\09\09_30</Filter>
+    </ClCompile>
+    <ClCompile Include="2675.cpp">
+      <Filter>소스 파일\10\10_01</Filter>
+    </ClCompile>
+    <ClCompile Include="1157.cpp">
+      <Filter>소스 파일\10\10_02</Filter>
+    </ClCompile>
+    <ClCompile Include="1152.cpp">
+      <Filter>소스 파일\10\10_03</Filter>
+    </ClCompile>
+    <ClCompile Include="2908.cpp">
+      <Filter>소스 파일\10\10_04</Filter>
+    </ClCompile>
+    <ClCompile Include="5622.cpp">
+      <Filter>소스 파일\10\10_05</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2941.cpp">
+      <Filter>소스 파일\10\10_06</Filter>
+    </ClCompile>
+    <ClCompile Include="1316.cpp">
+      <Filter>소스 파일\10\10_07</Filter>
+    </ClCompile>
+    <ClCompile Include="1712.cpp">
+      <Filter>소스 파일\10\10_08</Filter>
+    </ClCompile>
+    <ClCompile Include="2292.cpp">
+      <Filter>소스 파일\10\10_09</Filter>
+    </ClCompile>
+    <ClCompile Include="1193.cpp">
+      <Filter>소스 파일\10\10_10</Filter>
+    </ClCompile>
+    <ClCompile Include="2869.cpp">
+      <Filter>소스 파일\10\10_11</Filter>
+    </ClCompile>
+    <ClCompile Include="5086.cpp">
+      <Filter>소스 파일\10\10_12</Filter>
+    </ClCompile>
+    <ClCompile Include="10250.cpp">
+      <Filter>소스 파일\10\10_13</Filter>
+    </ClCompile>
+    <ClCompile Include="2775.cpp">
+      <Filter>소스 파일\10\10_14</Filter>
+    </ClCompile>
+    <ClCompile Include="10757.cpp">
+      <Filter>소스 파일\10\10_15</Filter>
+    </ClCompile>
+    <ClCompile Include="1978.cpp">
+      <Filter>소스 파일\10\10_16</Filter>
+    </ClCompile>
+    <ClCompile Include="2581.cpp">
+      <Filter>소스 파일\10\10_17</Filter>
+    </ClCompile>
+    <ClCompile Include="2839.cpp">
+      <Filter>소스 파일\10\10_18</Filter>
+    </ClCompile>
+    <ClCompile Include="11653.cpp">
+      <Filter>소스 파일\10\10_19</Filter>
+    </ClCompile>
+    <ClCompile Include="1929.cpp">
+      <Filter>소스 파일\10\10_20</Filter>
+    </ClCompile>
+    <ClCompile Include="4948.cpp">
+      <Filter>소스 파일\10\10_21</Filter>
+    </ClCompile>
+    <ClCompile Include="11047.cpp">
+      <Filter>소스 파일\10\10_23</Filter>
+    </ClCompile>
+    <ClCompile Include="11050.cpp">
+      <Filter>소스 파일\10\10_22</Filter>
+    </ClCompile>
+    <ClCompile Include="9020.cpp">
+      <Filter>소스 파일\미해결문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1011.cpp">
+      <Filter>소스 파일\미해결문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1085.cpp">
+      <Filter>소스 파일\10\10_24</Filter>
+    </ClCompile>
+    <ClCompile Include="3009.cpp">
+      <Filter>소스 파일\10\10_25</Filter>
+    </ClCompile>
+    <ClCompile Include="4153.cpp">
+      <Filter>소스 파일\10\10_26</Filter>
+    </ClCompile>
+    <ClCompile Include="3053.cpp">
+      <Filter>소스 파일\10\10_27</Filter>
+    </ClCompile>
+    <ClCompile Include="10872.cpp">
+      <Filter>소스 파일\10\10_28</Filter>
+    </ClCompile>
+    <ClCompile Include="1002.cpp">
+      <Filter>소스 파일\10\10_29</Filter>
+    </ClCompile>
+    <ClCompile Include="10817.cpp">
+      <Filter>소스 파일\10\10_30</Filter>
+    </ClCompile>
+    <ClCompile Include="10870.cpp">
+      <Filter>소스 파일\미해결문제</Filter>
+    </ClCompile>
+    <ClCompile Include="2750.cpp">
+      <Filter>소스 파일\10\10_31</Filter>
+    </ClCompile>
+    <ClCompile Include="7568.cpp">
+      <Filter>소스 파일\11\11_01</Filter>
+    </ClCompile>
+    <ClCompile Include="2558.cpp">
+      <Filter>소스 파일\11\11_02</Filter>
+    </ClCompile>
+    <ClCompile Include="7287.cpp">
+      <Filter>소스 파일\11\11_03</Filter>
+    </ClCompile>
+    <ClCompile Include="2798.cpp">
+      <Filter>소스 파일\11\11_04</Filter>
+    </ClCompile>
+    <ClCompile Include="2231.cpp">
+      <Filter>소스 파일\11\11_05</Filter>
+    </ClCompile>
+    <ClCompile Include="11399.cpp">
+      <Filter>소스 파일\11\11_06</Filter>
+    </ClCompile>
+    <ClCompile Include="2440.cpp">
+      <Filter>소스 파일\11\11_07</Filter>
+    </ClCompile>
+    <ClCompile Include="1427.cpp">
+      <Filter>소스 파일\11\11_08</Filter>
+    </ClCompile>
+    <ClCompile Include="1018.cpp">
+      <Filter>소스 파일\11\11_09</Filter>
+    </ClCompile>
+    <ClCompile Include="2441.cpp">
+      <Filter>소스 파일\11\11_10</Filter>
+    </ClCompile>
+    <ClCompile Include="1463.cpp">
+      <Filter>소스 파일\11\11_11</Filter>
+    </ClCompile>
+    <ClCompile Include="10039.cpp">
+      <Filter>소스 파일\미해결문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1436.cpp">
+      <Filter>소스 파일\11\11_12</Filter>
+    </ClCompile>
+    <ClCompile Include="1924.cpp">
+      <Filter>소스 파일\11\11_13</Filter>
+    </ClCompile>
+    <ClCompile Include="1100.cpp">
+      <Filter>소스 파일\11\11_14</Filter>
+    </ClCompile>
+    <ClCompile Include="10828.cpp">
+      <Filter>소스 파일\11\11_15</Filter>
+    </ClCompile>
+    <ClCompile Include="2606.cpp">
+      <Filter>소스 파일\미해결문제</Filter>
+    </ClCompile>
+    <ClCompile Include="10926.cpp">
+      <Filter>소스 파일\11\11_16</Filter>
+    </ClCompile>
+    <ClCompile Include="2163.cpp">
+      <Filter>소스 파일\11\11_17</Filter>
+    </ClCompile>
+    <ClCompile Include="2475.cpp">
+      <Filter>소스 파일\11\11_18</Filter>
+    </ClCompile>
+    <ClCompile Include="5543.cpp">
+      <Filter>소스 파일\11\11_19</Filter>
+    </ClCompile>
+    <ClCompile Include="3046.cpp">
+      <Filter>소스 파일\11\11_20</Filter>
+    </ClCompile>
+    <ClCompile Include="5338.cpp">
+      <Filter>소스 파일\11\11_21</Filter>
+    </ClCompile>
+    <ClCompile Include="2455.cpp">
+      <Filter>소스 파일\11\11_22</Filter>
+    </ClCompile>
+    <ClCompile Include="2920.cpp">
+      <Filter>소스 파일\11\11_23</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
