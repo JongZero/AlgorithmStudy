@@ -1,6 +1,4 @@
 #include <iostream>
-#include <math.h>
-#include <vector>
 using namespace std;
 
 // 1 - 1	1
@@ -36,66 +34,55 @@ using namespace std;
 
 int main()
 {
-	std::ios_base::sync_with_stdio(false);
-	std::cin.tie(NULL);
-
-	vector <long long> numbers;
-	long long c = pow(2, 31);
-
-	// 루프 횟수 
-	int loopNum = 1;
-
-	// (이 횟수가 0이 되면 k가 1 증가)
-	int loopCount = 0;
-
-	// 최대 루프 횟수 (이 횟수가 0이 되면 루프 횟수 증가)
-	int maxLoopNum = loopNum * 2;
-
-	// 현재 공간 이동 장치의 작동 횟수, 1부터 시작
-	int k = 1;
-
-	// i는 x, y의 차이 (최소부터 최대까지 미리 구해놓는다.)
-	// 미리 차이만큼의 횟수를 구해놓고 저장한다.
-	for (long long i = 1; i < c; i++)
-	{
-		loopCount--;
-		maxLoopNum--;
-
-		if (loopCount <= 0)
-		{
-			loopCount = loopNum;
-			k++;
-
-			numbers.push_back(i);
-		}
-
-		if (maxLoopNum <= 0)
-		{
-			loopNum++;
-			maxLoopNum = loopNum * 2;
-		}
-	}
-
-	int t = 0;
+	long long t = 0;
 	cin >> t;
 
-	for (int j = 0; j < t; j++)
+	for (int i = 0; i < t; i++)
 	{
 		long long x, y;
 		cin >> x >> y;
 
-		long long c = y - x;
+		long long distance = y - x;
 
-		for (long long i = 0; i < numbers.size(); i++)
+		long long k = 1;				// 현재 k
+		long long answer = 1;			// 답
+		long long answerCount = 1;	// 몇 번 지나야 answer++ 인지
+
+		bool isRangePlus = false;		// range를 증가시킬지 여부, 2번에 1번 증가시킴
+		long long range = 0;
+
+		long long totalLoop = 2;				// 몇 번 반복되는지
+		long long totalLoopCount = totalLoop;	// 카운트
+		while (true)
 		{
-			if (c < numbers[i])
-			{
-				k = i;
+			if (k + range >= distance)
 				break;
+
+			k += answerCount;
+			answer++;
+
+			totalLoopCount -= answerCount;
+			
+			if (totalLoopCount <= 0)
+			{
+				totalLoop += 2;
+				totalLoopCount = totalLoop;
+
+				answerCount = totalLoop / 2;
+			}
+
+			if (isRangePlus)
+			{
+				isRangePlus = false;
+				range++;
+			}
+			else
+			{
+				isRangePlus = true;
 			}
 		}
 
-		cout << k << "\n";
+		cout << answer << "\n";
 	}
 
 	return 0;
