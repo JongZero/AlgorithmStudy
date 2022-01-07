@@ -250,6 +250,12 @@
     <Filter Include="소스 파일\22_01\01_05">
       <UniqueIdentifier>{09ea6834-de1a-4705-a6d4-515ddcf1bd2f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\22_01\01_06">
+      <UniqueIdentifier>{5f0b9cf2-bd29-48c1-ae93-e4258cb9e9bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\22_01\01_07">
+      <UniqueIdentifier>{d2ee319d-533d-4599-adcc-875c8e3d3343}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1008.cpp">
@@ -429,9 +435,6 @@
     <ClCompile Include="11050.cpp">
       <Filter>소스 파일\21_10\10_22</Filter>
     </ClCompile>
-    <ClCompile Include="9020.cpp">
-      <Filter>소스 파일\미해결문제</Filter>
-    </ClCompile>
     <ClCompile Include="1085.cpp">
       <Filter>소스 파일\21_10\10_24</Filter>
     </ClCompile>
@@ -452,9 +455,6 @@
     </ClCompile>
     <ClCompile Include="10817.cpp">
       <Filter>소스 파일\21_10\10_30</Filter>
-    </ClCompile>
-    <ClCompile Include="10870.cpp">
-      <Filter>소스 파일\미해결문제</Filter>
     </ClCompile>
     <ClCompile Include="2750.cpp">
       <Filter>소스 파일\21_10\10_31</Filter>
@@ -536,6 +536,12 @@
     </ClCompile>
     <ClCompile Include="1011.cpp">
       <Filter>소스 파일\22_01\01_05</Filter>
+    </ClCompile>
+    <ClCompile Include="9020.cpp">
+      <Filter>소스 파일\22_01\01_06</Filter>
+    </ClCompile>
+    <ClCompile Include="10870.cpp">
+      <Filter>소스 파일\22_01\01_07</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

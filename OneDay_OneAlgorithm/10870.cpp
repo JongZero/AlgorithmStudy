@@ -1,7 +1,9 @@
 #include <iostream>
 using namespace std;
 
-int Fibo(int n, int n1, int n2)
+int g_FiboNums[21] = { 0, 1, };
+
+int Fibo(int n)
 {
 	if (n == 0)
 	{
@@ -13,7 +15,7 @@ int Fibo(int n, int n1, int n2)
 	}
 	else
 	{
-
+		return Fibo(n - 2) + Fibo(n - 1);
 	}
 }
 
@@ -25,7 +27,6 @@ int main()
 	int n = 0;
 	cin >> n;
 	
-	int sum = 1;
 	int result = Fibo(n);
 
 	cout << result;

@@ -1,5 +1,4 @@
 #include <iostream>
-#include <vector>
 using namespace std;
 
 int main()
@@ -7,35 +6,37 @@ int main()
 	std::ios_base::sync_with_stdio(false);
 	std::cin.tie(NULL);
 
-	const int n = 10000;
-	int* eratosArray = new int[10001];
-	//vector<int> eratosArray(n);
-	vector<int> primeNumbers;
+	const int Max = 10000;
+	int eratosArray[Max + 1] = { 0, };
 
 	// 일단 숫자를 배열에 넣는다.
-	for (int i = 1; i <= n; i++)
+	for (int i = 1; i <= Max; i++)
 	{
 		eratosArray[i] = i;
 	}
 
-	for (int i = 2; i * i <= n; i++)
+	for (int i = 2; i * i <= Max; i++)
 	{
 		// 이미 에라토스테네스의 체로 걸러진 수라면 검사하지않고 넘어간다.
 		if (eratosArray[i] == 1)
 		{
 			continue;
 		}
-		else
-		{
-			// 소수를 미리 저장
-			primeNumbers.push_back(eratosArray[i]);
-		}
-		
-		for (int j = i * i; j <= n; j += i)
+
+		for (int j = i * i; j <= Max; j += i)
 		{
 			eratosArray[j] = 1;
 		}
 	}
+
+	//vector<int> primeNumbers;
+	//for (int i = 2; i <= Max; i++)
+	//{
+	//	if (eratosArray[i] > 1)
+	//	{
+	//		primeNumbers.push_back(eratosArray[i]);
+	//	}
+	//}
 
 	int t = 0;
 	cin >> t;
@@ -46,45 +47,36 @@ int main()
 		cin >> n;
 
 		// 첫 번째 소수
-		vector<int> primeNum1s;
+		int primeNum1s[Max + 1] = { 0, };
 		// 두 번째 소수
-		vector<int> primeNum2s;
+		int primeNum2s[Max + 1] = { 0, };
+		int primeIndex = 0;
 
 		int primeNum1 = 0;
 		int primeNum2 = 0;
-		for (int j = 0; j < primeNumbers.size(); j++)
+		for (int j = 2; j <= n; j++)
 		{
-			if (primeNumbers[j] >= n)
-			{
-				break;
-			}
-			else
-			{
-				primeNum1 = primeNumbers[j];
+			// 소수가 아니라면 넘어감
+			if (eratosArray[j] == 1)
+				continue;
+			
+			primeNum1 = eratosArray[j];
+			primeNum2 = n - primeNum1;
 
-				for (int k = 0; k < primeNumbers.size(); k++)
-				{
-					if (primeNumbers[k] >= n)
-					{
-						break;
-					}
-					else
-					{
-						primeNum2 = primeNumbers[k];
-					}
+			// n은 두 소수의 합이므로 n - primeNum1도 소수여야 한다.
+			if (eratosArray[primeNum2] > 1)
+			{
+				primeNum1s[primeIndex] = primeNum1;
+				primeNum2s[primeIndex] = primeNum2;
 
-					if (primeNum1 + primeNum2 == n)
-					{
-						primeNum1s.push_back(primeNum1);
-						primeNum2s.push_back(primeNum2);
-					}
-				}
+				primeIndex++;
 			}
 		}
 
 		// 2개 이상 있을 경우 가장 차가 작은 것 출력
-		if (primeNum1s.size() > 1)
+		if (primeIndex > 1)
 		{
+			/*
 			int min = 10000;
 			int index = 0;
 			for (int j = 0; j < primeNum1s.size(); j++)
@@ -100,6 +92,33 @@ int main()
 					index = j;
 				}
 			}
+			*/
+
+			int index = primeIndex;
+			if (index % 2 == 0)
+				index /= 2;
+			else
+			{
+				int index1 = (index + 1) / 2;
+				int index2 = (index - 1) / 2;
+
+				int s1 = primeNum1s[index1] - primeNum2s[index1];
+				if (s1 < 0)
+					s1 *= -1;
+
+				int s2 = primeNum1s[index2] - primeNum2s[index2];
+				if (s2 < 0)
+					s2 *= -1;
+
+				if (s1 < s2)
+				{
+					index = index1;
+				}
+				else
+				{
+					index = index2;
+				}
+			}
 
 			if (primeNum1s[index] < primeNum2s[index])
 			{
@@ -111,7 +130,7 @@ int main()
 			}
 		}
 		// 1개있으면 그것을 출력
-		else if (primeNum1s.size() > 0)
+		else if (primeIndex > 0)
 		{
 			if (primeNum1s[0] < primeNum2s[0])
 			{
