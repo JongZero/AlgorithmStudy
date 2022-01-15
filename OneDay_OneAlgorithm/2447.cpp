@@ -1,5 +1,6 @@
 #include <iostream>
-using namespace std;
+#include <cmath>
+#include <string.h>
 
 void star(int n1, int n2, int inputN)
 {
@@ -9,11 +10,11 @@ void star(int n1, int n2, int inputN)
 	}
 	else if (2 == n1 && 2 == n2)
 	{
-		cout << " ";
+		std::cout << " ";
 	}
 	else
 	{
-		cout << "*";
+		std::cout << "*";
 	}
 
 	if (n2 >= 0)
@@ -27,7 +28,7 @@ void star(int n1, int n2, int inputN)
 			if (n1 > 0)
 			{
 				n2 = inputN;
-				cout << "\n";
+				std::cout << "\n";
 			}
 		}
 	}
@@ -74,34 +75,55 @@ void star2(int n1, int n2, int inputN, bool** numArray)
 }
 
 // 무조건 가운데를 지운다.
-void star3(int k, int n2, int inputN, bool** numArray)
+void star3(int n, int root, int powNum, int inputN, bool** numArray)
 {
-	// k는 횟수
-	// n 3의 몇 제곱번 반복하는지 (2씩 증가)
-	// count는 
-	if (k == 0)
+	// 더 이상 지울게 없으면 끝
+	if (n <= 1)
 	{
 		return;
 	}
 
-	
+	n /= 3;
+	// 27의 경우 1 -> 9 -> 81 식으로 횟수가 증가됨
+	int count = pow(root, powNum);
 
-	if (n2 >= 0)
+	int startI = n;
+	int startJ = n;
+	for (int c = 0; c < count; c++)
 	{
-		n2--;
-
-		if (n2 == 0)
+		for (int i = startI; i < startI + n; i++)
 		{
-			k--;
-
-			if (k > 0)
+			for (int j = startJ; j < startJ + n; j++)
 			{
-				n2 = inputN;
+				numArray[i][j] = false;
 			}
+		}
+
+// 		system("cls");
+// 
+//  		// 출력
+//  		for (int i = 0; i < root * 9; i++)
+//  		{
+//  			for (int j = 0; j < root * 9; j++)
+//  			{
+//  				if (numArray[i][j] == true)
+//  					std::cout << "*";
+//  				else
+//  					std::cout << " ";
+//  			}
+//  			std::cout << "\n";
+//  		}
+
+		startI += n * 3;
+
+		if (startI > inputN)
+		{
+			startI = n;
+			startJ += n * 3;
 		}
 	}
 
-	star3(k, n2, inputN, numArray);
+	star3(n, root, powNum + 1, inputN, numArray);
 }
 
 int main()
@@ -110,30 +132,37 @@ int main()
 	std::cin.tie(NULL);
 
 	int n = 0;
-	cin >> n;
+	std::cin >> n;
 
-	//star(n, n, n);
+	// 일단 n * n만큼 별을 다 그리고 가운데를 재귀함수로 지우는 방식
 	bool** numArray = new bool* [n];
 	for (int i = 0; i < n; i++)
 	{
 		numArray[i] = new bool[n];
-		memset(numArray[i], 1, sizeof(bool) * n);		// true로 초기화
+		memset(numArray[i], true, sizeof(bool) * n);		// true로 초기화
 	}
 
-	int k = n / 3;
-	star3(k, 0, n, numArray);
+	int count = n / 3;
+	star3(n, 9, 0, n, numArray);
 
+	// 출력
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = 0; j < n; j++)
 		{
 			if (numArray[i][j] == true)
-				cout << "*";
+				std::cout << "*";
 			else
-				cout << " ";
+				std::cout << " ";
 		}
-		cout << "\n";
+		std::cout << "\n";
 	}
+
+	for (int i = 0; i < n; i++)
+	{
+		delete[] numArray[i];
+	}
+	delete[] numArray;
 
 	return 0;
 }
