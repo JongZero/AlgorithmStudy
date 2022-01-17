@@ -1,3 +1,20 @@
-﻿  2108.cpp
-D:\Git\AlgorithmStudy\OneDay_OneAlgorithm\2108.cpp(73,14): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+﻿  1181.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(193,48): warning C4267: '초기화 중': 'size_t'에서 '_Ty2'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty2=int
+          ]
+D:\Git\AlgorithmStudy\OneDay_OneAlgorithm\1181.cpp(57): message : 컴파일되는 함수 템플릿 인스턴스화 'std::pair<std::string,int>::pair<std::string&,unsigned __int64,0>(_Other1,_Other2 &&) noexcept(false)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Other1=std::string &,
+              _Other2=unsigned __int64
+          ]
+D:\Git\AlgorithmStudy\OneDay_OneAlgorithm\1181.cpp(57): message : 컴파일되는 함수 템플릿 인스턴스화 'std::pair<std::string,int>::pair<std::string&,unsigned __int64,0>(_Other1,_Other2 &&) noexcept(false)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Other1=std::string &,
+              _Other2=unsigned __int64
+          ]
+D:\Git\AlgorithmStudy\OneDay_OneAlgorithm\1181.cpp(33): warning C4715: 'compare': 모든 제어 경로에서 값을 반환하지는 않습니다.
   OneDay_OneAlgorithm.vcxproj -> D:\Git\AlgorithmStudy\x64\Debug\OneDay_OneAlgorithm.exe
