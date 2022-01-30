@@ -274,6 +274,9 @@
     <Filter Include="소스 파일\22_01\01_18">
       <UniqueIdentifier>{c81c119e-d417-42a3-a593-50988c891ccf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\22_01\01_30">
+      <UniqueIdentifier>{1abed40d-b982-47ef-bd0c-c5443c1324bd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1008.cpp">
@@ -581,6 +584,9 @@
     </ClCompile>
     <ClCompile Include="1181.cpp">
       <Filter>소스 파일\22_01\01_18</Filter>
+    </ClCompile>
+    <ClCompile Include="10814.cpp">
+      <Filter>소스 파일\22_01\01_30</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
