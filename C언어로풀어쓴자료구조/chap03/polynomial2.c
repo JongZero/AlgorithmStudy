@@ -36,7 +36,8 @@ void poly_add2(int As, int Ae, int Bs, int Be, int *Cs,
 	float tempcoef;
 	*Cs = avail;
 	while (As <= Ae && Bs <= Be)
-		switch (compare(terms[As].expon, terms[Bs].expon)) {
+		switch (compare(terms[As].expon, terms[Bs].expon)) 
+		{
 		case '>': 	// A의 차수 > B의 차수
 			attach(terms[As].coef, terms[As].expon);
 			As++;			break;
@@ -70,7 +71,7 @@ int main(void)
 	poly_add2(As, Ae, Bs, Be, &Cs, &Ce);
 	print_poly(As, Ae);
 	print_poly(Bs, Be);
-	printf(“-----------------------------------------------------------------------------\n”);
+	printf("---------------------------------------------------------------------------- - \n");
 	print_poly(Cs, Ce);
 	return 0;
 }
