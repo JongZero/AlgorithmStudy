@@ -65,7 +65,14 @@ int main(void)
 	push(&s, 1);
 	push(&s, 2);
 	push(&s, 3);
-	printf("%d\n", pop(&s));
-	printf("%d\n", pop(&s));
-	printf("%d\n", pop(&s));
+
+	StackType s2;
+	init_stack(&s2);
+	push(&s2, pop(&s));
+	push(&s2, pop(&s));
+	push(&s2, pop(&s));
+
+	printf("%d\n", pop(&s2));
+	printf("%d\n", pop(&s2));
+	printf("%d\n", pop(&s2));
 }

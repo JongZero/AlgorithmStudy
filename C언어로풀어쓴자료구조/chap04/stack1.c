@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-스택이 전역 변수로 구현된다. 
+//스택이 전역 변수로 구현된다. 
 
 #define MAX_STACK_SIZE 100	// 스택의 최대 크기
 typedef int element;		// 데이터의 자료형

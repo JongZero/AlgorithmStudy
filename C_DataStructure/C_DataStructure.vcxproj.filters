@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="C언어로풀어쓴자료구조">
+      <UniqueIdentifier>{ad5d24af-266c-4244-988a-24a288a7ccee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C언어로풀어쓴자료구조\Chapter 3">
+      <UniqueIdentifier>{f39d05dc-cdfd-4c10-bb2c-1d5e2fa5141c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C언어로풀어쓴자료구조\Chapter 1">
+      <UniqueIdentifier>{516793c0-c139-4c8b-87a6-d85ca8fb780b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C언어로풀어쓴자료구조\Chapter 2">
+      <UniqueIdentifier>{24875312-c019-4570-9fac-abd14f7a023c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C언어로풀어쓴자료구조\Chapter 4">
+      <UniqueIdentifier>{22f9db9d-67c5-4f22-aea9-7f9491a54041}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C언어로풀어쓴자료구조\Chapter 5">
+      <UniqueIdentifier>{73dcab09-466d-4620-a9ee-1aa9eadcf23d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C언어로풀어쓴자료구조\Chapter 6">
+      <UniqueIdentifier>{b27614b0-8880-4dc4-bd18-94dafccab308}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C언어로풀어쓴자료구조\Chapter 7">
+      <UniqueIdentifier>{ebaffb88-7a12-45db-92fa-597315069514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C언어로풀어쓴자료구조\Chapter 8">
+      <UniqueIdentifier>{34927a38-1b83-4fec-a0b4-b2aa7f11bf95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C언어로풀어쓴자료구조\Chapter 9">
+      <UniqueIdentifier>{5b3c2020-fbe4-46c5-ba2e-7bd3c2790995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C언어로풀어쓴자료구조\Chapter 10">
+      <UniqueIdentifier>{19fa0677-f481-45b5-8ea8-0081aaac8070}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C언어로풀어쓴자료구조\Chapter 11">
+      <UniqueIdentifier>{2f26d9a0-418d-4451-afad-6de8768f8bf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C언어로풀어쓴자료구조\Chapter 12">
+      <UniqueIdentifier>{aea7a380-71e5-4bd1-a52f-d714292a63c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C언어로풀어쓴자료구조\Chapter 13">
+      <UniqueIdentifier>{861faa80-5587-483f-85ea-8d2e669be777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C언어로풀어쓴자료구조\Chapter 14">
+      <UniqueIdentifier>{0d3a0a38-122a-4c41-b650-493479b1ecb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="직접 쓰는 예제코드">
+      <UniqueIdentifier>{95343b0c-6a9f-4cfc-a70a-857e19c801d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="직접 쓰는 예제코드\Chapter 3">
+      <UniqueIdentifier>{7b4bac3e-a044-48e1-a260-4651b2844d2f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap03\array1.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap03\malloc.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap03\malloc2.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap03\matrix1.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap03\matrix2.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap03\polynomial1.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap03\polynomial2.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap03\structure.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap03\swap.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap01\calc_scores.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap01\calc_time.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap01\seq_search.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap02\factorial.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap02\factorial_iter.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap02\fib.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap02\fib_iter.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap02\power.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap02\recursion_hanoi.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap02\slow_power.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap04\infix.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap04\maze.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap04\paren_matching.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap04\postfix.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap04\stack1.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap04\stack2.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap04\stack3.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap04\stack4.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap04\stack5.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap05\bank_simul.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap05\cir_queue.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap05\deque.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap05\linear_queue.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap05\queue_buffer.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap06\arraylist.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap06\lab1.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap06\lab2.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap06\lab3.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap06\lab4.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap06\linkedlist1.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap06\polynomial.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap07\cir_list.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap07\dlinkedlist.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap07\linked_queue.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap07\linked_stack.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap07\mp3_paly.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap07\multigame.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap08\bin_search_tree.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap08\cal_direc.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap08\english_dic.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap08\exp_eval.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap08\thread_tree.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap08\tree1.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap08\tree2.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap08\tree3.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap08\tree4.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap08\tree_etc.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap09\heap1.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap09\heapsort.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap09\huffman.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap09\lpt.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap10\adj_list.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 10</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap10\adj_mat.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 10</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap10\bfs.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 10</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap10\bfs_list.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 10</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap10\dfs.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 10</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap10\dfs_list.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 10</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap11\dijkstra.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap11\floyd.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap11\kruskal.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap11\prim.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap11\topo_sort.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap12\bubble_sort.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap12\english_dic.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap12\insertion_sort.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap12\merge_sort.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap12\qsort.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap12\quick_sort.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap12\radix_sort.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap12\selection_sort.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap12\shell_sort.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap13\23tree.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 13</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap13\avl_tree.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 13</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap13\search_binary1.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 13</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap13\search_binary2.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 13</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap13\search_index.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 13</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap13\search_interpolation.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 13</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap13\search_seq.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 13</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap14\chain.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 14</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap14\dh_add.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 14</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap14\open_linear.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 14</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C언어로풀어쓴자료구조\chap14\qp_add.c">
+      <Filter>C언어로풀어쓴자료구조\Chapter 14</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OneDay_OneAlgorithm", "OneDay_OneAlgorithm\OneDay_OneAlgorithm.vcxproj", "{D4D821A6-37B4-4AC9-BD9C-22CFB385B7AD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C_DataStructure", "C_DataStructure\C_DataStructure.vcxproj", "{16D529AC-262D-4A04-842C-45A1468D54C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{D4D821A6-37B4-4AC9-BD9C-22CFB385B7AD}.Release|x64.Build.0 = Release|x64
 		{D4D821A6-37B4-4AC9-BD9C-22CFB385B7AD}.Release|x86.ActiveCfg = Release|Win32
 		{D4D821A6-37B4-4AC9-BD9C-22CFB385B7AD}.Release|x86.Build.0 = Release|Win32
+		{16D529AC-262D-4A04-842C-45A1468D54C3}.Debug|x64.ActiveCfg = Debug|x64
+		{16D529AC-262D-4A04-842C-45A1468D54C3}.Debug|x64.Build.0 = Debug|x64
+		{16D529AC-262D-4A04-842C-45A1468D54C3}.Debug|x86.ActiveCfg = Debug|Win32
+		{16D529AC-262D-4A04-842C-45A1468D54C3}.Debug|x86.Build.0 = Debug|Win32
+		{16D529AC-262D-4A04-842C-45A1468D54C3}.Release|x64.ActiveCfg = Release|x64
+		{16D529AC-262D-4A04-842C-45A1468D54C3}.Release|x64.Build.0 = Release|x64
+		{16D529AC-262D-4A04-842C-45A1468D54C3}.Release|x86.ActiveCfg = Release|Win32
+		{16D529AC-262D-4A04-842C-45A1468D54C3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
