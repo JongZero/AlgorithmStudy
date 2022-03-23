@@ -109,7 +109,7 @@ void infix_to_postfix(char exp[])
 // 
 int main(void)
 {
-	char *s = "(2+3)*4+9";
+	char *s = "5*(10+2)%2";
 	printf("중위표시수식 %s \n", s);
 	printf("후위표시수식 ");
 	infix_to_postfix(s);

@@ -1,0 +1,16 @@
+﻿  GraphicsEngine_D2D.cpp
+D:\Git\AlgorithmStudy\GraphicsEngine_D2D\GraphicsEngine_D2D.cpp(418,14): warning C4267: '인수': 'size_t'에서 'UINT32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Git\AlgorithmStudy\GraphicsEngine_D2D\GraphicsEngine_D2D.cpp(444,14): warning C4267: '인수': 'size_t'에서 'UINT32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Git\AlgorithmStudy\GraphicsEngine_D2D\GraphicsEngine_D2D.cpp(471,14): warning C4267: '인수': 'size_t'에서 'UINT32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Git\AlgorithmStudy\GraphicsEngine_D2D\GraphicsEngine_D2D.cpp(501,14): warning C4267: '인수': 'size_t'에서 'UINT32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Git\AlgorithmStudy\GraphicsEngine_D2D\GraphicsEngine_D2D.cpp(529,14): warning C4267: '인수': 'size_t'에서 'UINT32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Git\AlgorithmStudy\GraphicsEngine_D2D\GraphicsEngine_D2D.cpp(559,14): warning C4267: '인수': 'size_t'에서 'UINT32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Git\AlgorithmStudy\GraphicsEngine_D2D\GraphicsEngine_D2D.cpp(587,14): warning C4267: '인수': 'size_t'에서 'UINT32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Git\AlgorithmStudy\GraphicsEngine_D2D\GraphicsEngine_D2D.cpp(617,14): warning C4267: '인수': 'size_t'에서 'UINT32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Git\AlgorithmStudy\GraphicsEngine_D2D\GraphicsEngine_D2D.cpp(643,14): warning C4267: '인수': 'size_t'에서 'UINT32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Git\AlgorithmStudy\GraphicsEngine_D2D\GraphicsEngine_D2D.cpp(658,14): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Git\AlgorithmStudy\GraphicsEngine_D2D\GraphicsEngine_D2D.cpp(678,14): warning C4267: '인수': 'size_t'에서 'UINT32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Git\AlgorithmStudy\GraphicsEngine_D2D\GraphicsEngine_D2D.cpp(689,16): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Git\AlgorithmStudy\GraphicsEngine_D2D\GraphicsEngine_D2D.cpp(709,14): warning C4267: '인수': 'size_t'에서 'UINT32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  GraphicsEngine_D2D.vcxproj -> D:\Git\AlgorithmStudy\x64\Debug\GraphicsEngine_D2D_x64_debug.lib
+          1개 파일이 복사되었습니다.
