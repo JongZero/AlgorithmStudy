@@ -49,8 +49,8 @@
     <Filter Include="직접 쓰는 예제코드">
       <UniqueIdentifier>{95343b0c-6a9f-4cfc-a70a-857e19c801d9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="직접 쓰는 예제코드\Chapter 3">
-      <UniqueIdentifier>{7b4bac3e-a044-48e1-a260-4651b2844d2f}</UniqueIdentifier>
+    <Filter Include="직접 쓰는 예제코드\Chapter 4">
+      <UniqueIdentifier>{16faab09-cb0a-4528-b474-89292230a483}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -326,6 +326,9 @@
     </ClCompile>
     <ClCompile Include="..\C언어로풀어쓴자료구조\chap14\qp_add.c">
       <Filter>C언어로풀어쓴자료구조\Chapter 14</Filter>
+    </ClCompile>
+    <ClCompile Include="practice.cpp">
+      <Filter>직접 쓰는 예제코드\Chapter 4</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
