@@ -117,12 +117,37 @@ int main(void)
 
 	int len = strlen(input);
 	
-	char now = ' ';
+	char prev = ' ';
+	int count = 0;
+	int offset = 'a' - 'A';		// 'a'와 'A'의 아스키 코드상에서 차이
 	for (int i = 0; i < len; i++)
 	{
-		
-		push(&s, input[i]);
+		// 알파벳 대문자, 소문자일 경우
+		if (('A' <= input[i] && input[i] < 'Z')
+			|| ('a' <= input[i] && input[i] < 'z'))
+		{
+			// 알파벳 대문자일 경우
+			if (input[i] < 'a')
+			{
+				// 소문자로 바꿔줌
+				input[i] += offset;
+			}
+
+			push(&s, input[i]);
+
+			// 이전에 저장된 값과 비교해서
+			// 다르다면 알파벳 + 카운트 출력
+			if (i > 0 && prev != peek(&s))
+			{
+				printf("%c%d", prev, count);
+				count = 0;
+			}
+
+			count++;
+			prev = input[i];
+		}
 	}
 
+	printf("%c%d", prev, count);
 	return 0;
 }
