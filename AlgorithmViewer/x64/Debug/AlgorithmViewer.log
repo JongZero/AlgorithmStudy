@@ -1,3 +1,24 @@
-﻿  WinMain.cpp
+﻿  MazeSolvingProblem.cpp
+D:\Git\AlgorithmStudy\AlgorithmViewer\MazeSolvingProblem.cpp(100,11): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Git\AlgorithmStudy\AlgorithmViewer\MazeSolvingProblem.cpp(116,80): warning C4244: '인수': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Git\AlgorithmStudy\AlgorithmViewer\MazeSolvingProblem.cpp(116,63): warning C4244: '인수': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Git\AlgorithmStudy\AlgorithmViewer\MazeSolvingProblem.cpp(116,50): warning C4244: '인수': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Git\AlgorithmStudy\AlgorithmViewer\MazeSolvingProblem.cpp(116,40): warning C4244: '인수': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Git\AlgorithmStudy\AlgorithmViewer\MazeSolvingProblem.cpp(120,82): warning C4244: '인수': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Git\AlgorithmStudy\AlgorithmViewer\MazeSolvingProblem.cpp(120,65): warning C4244: '인수': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Git\AlgorithmStudy\AlgorithmViewer\MazeSolvingProblem.cpp(120,52): warning C4244: '인수': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Git\AlgorithmStudy\AlgorithmViewer\MazeSolvingProblem.cpp(120,42): warning C4244: '인수': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Git\AlgorithmStudy\AlgorithmViewer\MazeSolvingProblem.cpp(128,83): warning C4244: '인수': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Git\AlgorithmStudy\AlgorithmViewer\MazeSolvingProblem.cpp(128,66): warning C4244: '인수': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Git\AlgorithmStudy\AlgorithmViewer\MazeSolvingProblem.cpp(128,53): warning C4244: '인수': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Git\AlgorithmStudy\AlgorithmViewer\MazeSolvingProblem.cpp(128,43): warning C4244: '인수': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Git\AlgorithmStudy\AlgorithmViewer\MazeSolvingProblem.cpp(133,42): warning C4244: '인수': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Git\AlgorithmStudy\AlgorithmViewer\MazeSolvingProblem.cpp(133,32): warning C4244: '인수': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Git\AlgorithmStudy\AlgorithmViewer\MazeSolvingProblem.cpp(141,43): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  WinMain.cpp
 D:\Git\AlgorithmStudy\AlgorithmViewer\WinMain.cpp(82,12): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+GraphicsEngine_D2D_x64_debug.lib(GraphicsEngine_D2D.obj) : warning LNK4099: '' PDB를 'GraphicsEngine_D2D_x64_debug.lib(GraphicsEngine_D2D.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+GraphicsEngine_D2D_x64_debug.lib(JTimer.obj) : warning LNK4099: 'GraphicsEngine_D2D_x64_debug.pdb' PDB를 'GraphicsEngine_D2D_x64_debug.lib(JTimer.obj)' 또는 'D:\Git\AlgorithmStudy\x64\Debug\GraphicsEngine_D2D_x64_debug.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+GraphicsEngine_D2D_x64_debug.lib(pch.obj) : warning LNK4099: 'GraphicsEngine_D2D_x64_debug.pdb' PDB를 'GraphicsEngine_D2D_x64_debug.lib(pch.obj)' 또는 'D:\Git\AlgorithmStudy\x64\Debug\GraphicsEngine_D2D_x64_debug.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
   AlgorithmViewer.vcxproj -> D:\Git\AlgorithmStudy\x64\Debug\AlgorithmViewer.exe

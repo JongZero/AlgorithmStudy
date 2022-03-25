@@ -327,7 +327,7 @@
     <ClCompile Include="..\C언어로풀어쓴자료구조\chap14\qp_add.c">
       <Filter>C언어로풀어쓴자료구조\Chapter 14</Filter>
     </ClCompile>
-    <ClCompile Include="practice.cpp">
+    <ClCompile Include="c4_practice.cpp">
       <Filter>직접 쓰는 예제코드\Chapter 4</Filter>
     </ClCompile>
   </ItemGroup>

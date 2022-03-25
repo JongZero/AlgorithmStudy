@@ -54,11 +54,13 @@ void MazeSolvingProblem::Update(float dTime)
 				break;
 			}
 
+			// 배열에서 벗어난 인덱스일 경우
 			if (nowPos.x < 0 || nowPos.y < 0)
 			{
 				continue;
 			}
 
+			// 이전에 갔던 곳인지 체크한다.
 			bool check = false;
 			for (int j = 0; j < m_checkVec.size(); j++)
 			{
@@ -69,9 +71,11 @@ void MazeSolvingProblem::Update(float dTime)
 				}
 			}
 
+			// 이전에 갔던 곳인지 또는 벽인지
 			if (check || map[nowPos.x][nowPos.y] == X)
 				continue;
 
+			// 도착 지점인지
 			if (map[nowPos.x][nowPos.y] == E)
 			{
 				isEnd = true;
@@ -80,6 +84,7 @@ void MazeSolvingProblem::Update(float dTime)
 			m_stack.push(nowPos);
 		}
 
+		// 내 위치를 다음 위치로 변경
 		if (!m_stack.empty())
 		{
 			m_checkVec.push_back(myPos);
