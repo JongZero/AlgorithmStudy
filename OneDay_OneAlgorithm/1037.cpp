@@ -71,12 +71,15 @@ int main()
 							break;
 						}
 					}
-				}
 
-				if (!isExist)
-					break;
+					// 입력으로 들어온게 없다면 더 검사할 필요도 없이
+					// 틀린 것이다. 틀린 이유는 54번줄부터
+					if (!isExist)
+						break;
+				}
 			}
 
+			// 입력으로 모두 들어왔다면 맞는 결과
 			if (isExist)
 			{
 				result = i;
