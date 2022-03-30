@@ -12,14 +12,16 @@ public:
 	~MazeSolvingProblem();
 
 private:
-	int offset = 100;
-	POINT startPos = { 20, 20 };
-	std::stack<POINT> m_stack;
+	int m_Offset = 100;
+	POINT m_StartPos = { 20, 20 };
+	std::stack<POINT> m_MovableStack;
+	std::stack<POINT> m_ForDesStack;		// m_Stack의 상황을 보여주기 위한 스택
+	bool m_IsDrawTempStack;				// 스택의 상황을 표시했는지?
 
-	POINT myPos = { 0, 0 };		// 내 위치(map의 인덱스)
+	POINT m_MyPos = { 0, 0 };			// 내 위치(map의 인덱스)
 
-	std::vector<POINT> m_checkVec;		// 내가 지나 왔던 곳
-	bool isEnd = false;
+	std::vector<POINT> m_CheckVec;		// 내가 지나 왔던 곳
+	bool m_IsEnd = false;
 
 	// 4방향
 	enum class eDir
