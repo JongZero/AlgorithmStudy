@@ -1,2 +1,4 @@
-﻿  1021.cpp
+﻿  5430.cpp
+D:\Git\AlgorithmStudy\OneDay_OneAlgorithm\5430.cpp(77,32): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Git\AlgorithmStudy\OneDay_OneAlgorithm\5430.cpp(123,27): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   OneDay_OneAlgorithm.vcxproj -> D:\Git\AlgorithmStudy\x64\Debug\OneDay_OneAlgorithm.exe

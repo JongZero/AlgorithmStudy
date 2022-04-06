@@ -9,9 +9,11 @@ typedef struct TreeNode {
 //		  15
 //	   4		 20
 //    1	      16  25
+//           7 
+TreeNode n7 = { 7, NULL,  NULL };
 TreeNode n1 = { 1,  NULL, NULL };
 TreeNode n2 = { 4,  &n1,  NULL };
-TreeNode n3 = { 16, NULL, NULL };
+TreeNode n3 = { 16, &n7, NULL };
 TreeNode n4 = { 25, NULL, NULL };
 TreeNode n5 = { 20, &n3,  &n4 };
 TreeNode n6 = { 15, &n2,  &n5 };
