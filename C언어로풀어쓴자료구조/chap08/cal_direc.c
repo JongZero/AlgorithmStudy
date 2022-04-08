@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//			0
+//		50			100
+//				500		200
+
 typedef struct TreeNode {
 	int data;
 	struct TreeNode *left, *right;
