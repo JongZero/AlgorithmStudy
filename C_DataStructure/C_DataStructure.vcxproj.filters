@@ -52,6 +52,9 @@
     <Filter Include="직접 쓰는 예제코드\Chapter 4">
       <UniqueIdentifier>{16faab09-cb0a-4528-b474-89292230a483}</UniqueIdentifier>
     </Filter>
+    <Filter Include="직접 쓰는 예제코드\Chater 8">
+      <UniqueIdentifier>{10f7b9d5-28e5-4f3e-9b4a-035bc9fb6c41}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\C언어로풀어쓴자료구조\chap03\array1.c">
@@ -329,6 +332,9 @@
     </ClCompile>
     <ClCompile Include="c4_practice.cpp">
       <Filter>직접 쓰는 예제코드\Chapter 4</Filter>
+    </ClCompile>
+    <ClCompile Include="c8_practice.cpp">
+      <Filter>직접 쓰는 예제코드\Chater 8</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
