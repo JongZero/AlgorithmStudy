@@ -775,5 +775,8 @@
     <ClCompile Include="14888.cpp">
       <Filter>알고리즘 문제풀이\22_04\04_19</Filter>
     </ClCompile>
+    <ClCompile Include="14888_2.cpp">
+      <Filter>알고리즘 문제풀이\22_04\04_19</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

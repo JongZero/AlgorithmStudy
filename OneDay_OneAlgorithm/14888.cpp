@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
 
 enum eOperator
 {
@@ -8,6 +9,19 @@ enum eOperator
 	multi,
 	Devision,
 };
+
+void Func(const std::vector<int>& inputNumVec)
+{
+	// nowVec의 사이즈 (n * 2 - 1)까지 도달하면 계산완료
+	if (true)
+	{
+
+	}
+	else
+	{
+
+	}
+}
 
 int main()
 {
@@ -27,90 +41,80 @@ int main()
 	}
 
 	// (+)(-)(x)(/)의 개수
-	std::vector<int> operatorVec(4);
+	std::vector<int> inputOperatorVec(4);
 	for (int i = 0; i < 4; i++)
 	{
-		std::cin >> operatorVec[i];
+		std::cin >> inputOperatorVec[i];
 	}
 
-	int max = 0;
+	// Operator들을 하나하나 저장
+	// 얘의 순서를 바꿔가면서 최소, 최대 검사 할 것임
+	std::vector<eOperator> operatorVec;
+	for (int i = 0; i < 4; i++)
+	{
+		for (int j = 0; j < inputOperatorVec[i]; j++)
+		{
+			operatorVec.emplace_back(eOperator(i));
+		}
+	}
+
+	int max = -1000000000;
 	int min = 1000000000;	// 최대 값을 넣는다.
 
-	// 최대는 n - 1까지 진행
-	std::vector<int> nowVec;	// 현재 진행 중인 벡터 (숫자와 연산자가 담길 것임)
-	Func(inputNumVec, operatorVec, min, max, 0, 0, 0, n, nowVec);
-
-	std::cout << max << '\n' << min;
-
-	return 0;
-}
-
-void Func(const std::vector<int>& inputNumVec, const std::vector<int>& operatorVec, int& min, int& max, int totalCount, int numCount, int opeCount, int n, std::vector<int>& nowVec)
-{
-	// n * 2 - 1까지 도달하면 계산완료
-	if (totalCount == n * 2 - 1)
+	// 최대는 n * 2 - 1까지 진행
+	const int MaxCount = n * 2 - 1;	// 최대 숫자 + 연산자 개수
+	do 
 	{
-		int result = 0;
-		eOperator _eOperator = Add;
+		int numIndex = 0;
+		int opeIndex = 0;
+		int result = 0;			// 계산 결과
+		eOperator eOpe = Add;	// 현재 연산자
 
-		// nowVec
-		for (int i = 0; i < n * 2 - 1; i++)
+		for (int i = 0; i < MaxCount; i++)
 		{
-			// 나눠떨어지면 숫자
+			// 숫자
 			if (i % 2 == 0)
 			{
-				switch (nowVec[i])
+				int nowNum = inputNumVec[numIndex];
+
+				switch (eOpe)
 				{
 				case Add:
-					result += nowVec[i];
+					result += nowNum;
 					break;
 				case Sub:
-					result -= nowVec[i];
+					result -= nowNum;
 					break;
 				case multi:
-					result *= nowVec[i];
+					result *= nowNum;
 					break;
 				case Devision:
 					bool isMinus = false;
-					// 음수일 경우 양수로 바꾼 뒤 몫을 취하고
 					if (result < 0)
 					{
 						result *= -1;
 						isMinus = true;
 					}
 
-					result /= nowVec[i];
+					result /= nowNum;
 
-					// 음수일 경우 몫을 다시 음수로 바꾼다.
 					if (isMinus)
 					{
 						result *= -1;
 					}
 					break;
 				}
+
+				numIndex++;
 			}
-			// 연산자
 			else
 			{
-				switch (nowVec[i])
-				{
-				case Add:
-					_eOperator = Add;
-					break;
-				case Sub:
-					_eOperator = Sub;
-					break;
-				case multi:
-					_eOperator = multi;
-					break;
-				case Devision:
-					_eOperator = Devision;
-					break;
-				}
+				eOpe = operatorVec[opeIndex];
+				opeIndex++;
 			}
 		}
 
-		// 계산이 끝나면 최소, 최대 비교한다.
+		// 계산결과 비교 후 저장
 		if (result < min)
 		{
 			min = result;
@@ -120,30 +124,9 @@ void Func(const std::vector<int>& inputNumVec, const std::vector<int>& operatorV
 		{
 			max = result;
 		}
-	}
-	else
-	{
-		// 숫자 차례
-		if (totalCount % 2 == 0)
-		{
-			nowVec[numCount] = inputNumVec[numCount];
-			numCount++;
-		}
-		// 연산자 차례
-		else
-		{
-			nowVec[opeCount] = operatorVec[opeCount];
-			opeCount++;
-		}
+	} while (std::next_permutation(operatorVec.begin(), operatorVec.end()));
 
-		totalCount++;
-		Func(inputNumVec, operatorVec, min, max, totalCount, numCount, opeCount, n, nowVec);
+	std::cout << max << '\n' << min;
 
-		
-
-		if (opeCount + 2)
-		{
-
-		}
-	}
+	return 0;
 }
