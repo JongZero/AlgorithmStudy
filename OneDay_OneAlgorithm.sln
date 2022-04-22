@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GraphicsEngine_D2D", "Graph
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AlgorithmViewer", "AlgorithmViewer\AlgorithmViewer.vcxproj", "{10E517D5-CAE3-4472-8341-394AD6084E9F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++Study", "C++Study\C++Study.vcxproj", "{7172C051-BE65-4B5C-99E5-ED1BA2FB88DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{10E517D5-CAE3-4472-8341-394AD6084E9F}.Release|x64.Build.0 = Release|x64
 		{10E517D5-CAE3-4472-8341-394AD6084E9F}.Release|x86.ActiveCfg = Release|Win32
 		{10E517D5-CAE3-4472-8341-394AD6084E9F}.Release|x86.Build.0 = Release|Win32
+		{7172C051-BE65-4B5C-99E5-ED1BA2FB88DF}.Debug|x64.ActiveCfg = Debug|x64
+		{7172C051-BE65-4B5C-99E5-ED1BA2FB88DF}.Debug|x64.Build.0 = Debug|x64
+		{7172C051-BE65-4B5C-99E5-ED1BA2FB88DF}.Debug|x86.ActiveCfg = Debug|Win32
+		{7172C051-BE65-4B5C-99E5-ED1BA2FB88DF}.Debug|x86.Build.0 = Debug|Win32
+		{7172C051-BE65-4B5C-99E5-ED1BA2FB88DF}.Release|x64.ActiveCfg = Release|x64
+		{7172C051-BE65-4B5C-99E5-ED1BA2FB88DF}.Release|x64.Build.0 = Release|x64
+		{7172C051-BE65-4B5C-99E5-ED1BA2FB88DF}.Release|x86.ActiveCfg = Release|Win32
+		{7172C051-BE65-4B5C-99E5-ED1BA2FB88DF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
