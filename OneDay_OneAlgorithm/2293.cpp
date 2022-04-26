@@ -64,6 +64,7 @@ int main()
 	std::cin >> n;
 	std::cin >> k;
 
+	/*
 	inputVec.resize(n);
 	countVec.resize(n);
 
@@ -101,5 +102,22 @@ int main()
 	Func(0);
 
 	std::cout << resultCount;
+	*/
+
+	inputVec.resize(n);
+	std::vector<int> dpVec(k + 1);
+	dpVec[0] = 1;	// 아무 동전도 선택하지 않은 경우도 하나의 경우의 수라고 한다....
+	for (int i = 0; i < n; i++)
+	{
+		std::cin >> inputVec[i];
+		
+		for (int j = inputVec[i]; j <= k; j++)
+		{
+			dpVec[j] += dpVec[j - inputVec[i]];
+		}
+	}
+
+	std::cout << dpVec[k];
+
 	return 0;
 }
