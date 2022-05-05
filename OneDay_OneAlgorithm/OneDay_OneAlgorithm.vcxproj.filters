@@ -386,6 +386,9 @@
     <Filter Include="알고리즘 문제풀이\22_05\05_04">
       <UniqueIdentifier>{677fa73f-26de-48fb-bce0-6ba4f99aefb1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="알고리즘 문제풀이\22_05\05_05">
+      <UniqueIdentifier>{9d46349f-451e-43f2-9c8a-726d363441ec}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1008.cpp">
@@ -894,6 +897,12 @@
     </ClCompile>
     <ClCompile Include="3568.cpp">
       <Filter>알고리즘 문제풀이\22_05\05_04</Filter>
+    </ClCompile>
+    <ClCompile Include="16506.cpp">
+      <Filter>알고리즘 문제풀이\22_05\05_05</Filter>
+    </ClCompile>
+    <ClCompile Include="2290.cpp">
+      <Filter>알고리즘 문제풀이\22_05\05_05</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
