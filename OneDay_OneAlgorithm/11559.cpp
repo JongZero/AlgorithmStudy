@@ -60,6 +60,7 @@ int main()
 	}
 
 	int result = 0;
+	vector<pair<int, int>> boomVec;
 	while (true)
 	{
 		// 탐색을 시작할 위치
@@ -89,37 +90,32 @@ int main()
 		}
 
 		if (!isExist)
-			break;
-
-		//cout << startY << ' ' << startX << '\n';
-
-		int tempCount = 0;
-		vector<pair<int, int>> tempVec;
-		Func(startY, startX, tempCount, tempVec);
-
-		// 4개 이상 모이면 제거
-		if (tempCount >= 4)
 		{
-			sort(tempVec.begin(), tempVec.end(), compare);
+			if (boomVec.size() <= 0)
+				break;
 
-			for (int k = 0; k < tempVec.size(); k++)
+			sort(boomVec.begin(), boomVec.end(), compare);
+
+			for (int k = 0; k < boomVec.size(); k++)
 			{
-				int i = tempVec[k].first;
-				int j = tempVec[k].second;
+				int i = boomVec[k].first;
+				int j = boomVec[k].second;
 
 				InputVec[i][j] = '.';
-				
+			}
+
+			for (int k = 0; k < boomVec.size(); k++)
+			{
+				int i = boomVec[k].first;
+				int j = boomVec[k].second;
+
 				// 밑으로 한칸씩 내림
 				int eraseCount = 0;
 				for (int h = i; h >= 1; h--)
 				{
-					if (InputVec[h - 1][j] == '.')
-						eraseCount++;
-					
-					if (eraseCount > 1)
-						break;
-
+					char temp = InputVec[h][j];
 					InputVec[h][j] = InputVec[h - 1][j];
+					InputVec[h - 1][j] = temp;
 				}
 			}
 
@@ -131,6 +127,18 @@ int main()
 			}
 
 			result++;	// 연쇄 횟수
+			boomVec.clear();
+			continue;
+		}
+
+		int tempCount = 0;
+		vector<pair<int, int>> tempVec;
+		Func(startY, startX, tempCount, tempVec);
+
+		// 4개 이상 모이면 제거
+		if (tempCount >= 4)
+		{
+			boomVec.insert(boomVec.end(), tempVec.begin(), tempVec.end());
 		}
 	}
 

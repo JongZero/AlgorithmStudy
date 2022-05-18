@@ -44,4 +44,7 @@ D:\Git\AlgorithmStudy\AlgorithmViewer\MazeSolvingProblem.cpp(189,35): warning C4
   WinMain.cpp
 D:\Git\AlgorithmStudy\AlgorithmViewer\WinMain.cpp(82,12): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   코드를 생성하고 있습니다...
+GraphicsEngine_D2D_x64_debug.lib(GraphicsEngine_D2D.obj) : warning LNK4099: '' PDB를 'GraphicsEngine_D2D_x64_debug.lib(GraphicsEngine_D2D.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+GraphicsEngine_D2D_x64_debug.lib(JTimer.obj) : warning LNK4099: '' PDB를 'GraphicsEngine_D2D_x64_debug.lib(JTimer.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+GraphicsEngine_D2D_x64_debug.lib(pch.obj) : warning LNK4099: '' PDB를 'GraphicsEngine_D2D_x64_debug.lib(pch.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
   AlgorithmViewer.vcxproj -> D:\Git\AlgorithmStudy\x64\Debug\AlgorithmViewer.exe

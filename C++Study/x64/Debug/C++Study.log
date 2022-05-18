@@ -1,3 +1,3 @@
 ﻿  main.cpp
-D:\Git\AlgorithmStudy\C++Study\main.cpp(10,4): warning C4930: 'A a(void)': 프로토타입 함수가 호출되지 않았습니다. 변수 정의로 사용하려고 한 것은 아닌지 확인하십시오.
-  C++Study.vcxproj -> D:\Git\AlgorithmStudy\x64\Debug\C++Study.exe
+D:\Git\AlgorithmStudy\C++Study\main.cpp(11,4): error C2365: 'a': 재정의: 이전 정의는 '함수'입니다.
+D:\Git\AlgorithmStudy\C++Study\main.cpp(10): message : 'a' 선언을 참조하십시오.
