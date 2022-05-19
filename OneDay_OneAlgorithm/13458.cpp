@@ -20,7 +20,7 @@ int main()
 	int c = 0;
 	cin >> b >> c;
 
-	int result = 0;
+	long long result = 0;
 	for (int i = 0; i < n; i++)
 	{
 		int num = inputNum[i];
@@ -33,8 +33,12 @@ int main()
 			continue;
 
 		// 부 감독관 몇 명 필요한지
+		int remain = num % c;
 		num /= c;
-		result += (num + 1);
+		result += num;
+
+		if (remain != 0)
+			result++;
 	}
 	
 	cout << result;
