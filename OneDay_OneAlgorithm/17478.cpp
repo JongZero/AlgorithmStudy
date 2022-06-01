@@ -13,7 +13,7 @@ string Table[5] = { "\"재귀함수가 뭔가요?\"\n",
 
 void RecursiveFunc(int count, int underBarCount)
 {
-	if (n >= count)
+	if (n > count)
 	{
 		for (int i = 0; i < 4; i++)
 		{
@@ -26,6 +26,26 @@ void RecursiveFunc(int count, int underBarCount)
 		}
 
 		RecursiveFunc(count + 1, underBarCount + 4);
+
+		for (int j = 0; j < underBarCount; j++)
+		{
+			cout << '_';
+		}
+		cout << Table[4];
+	}
+	else if (n == count)
+	{
+		for (int j = 0; j < underBarCount; j++)
+		{
+			cout << '_';
+		}
+		cout << Table[0];
+
+		for (int j = 0; j < underBarCount; j++)
+		{
+			cout << '_';
+		}
+		cout << "재귀함수는 자기 자신을 호출하는 함수라네\n";
 
 		for (int j = 0; j < underBarCount; j++)
 		{
