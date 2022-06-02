@@ -8,6 +8,9 @@
     <Filter Include="Modern C++">
       <UniqueIdentifier>{cc7b112e-4d57-4881-94b0-1b5ea6cef26c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="전문가를 위한 C++">
+      <UniqueIdentifier>{c8e6ec09-3497-4f46-84ad-23a0854acb68}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -18,6 +21,9 @@
     </ClCompile>
     <ClCompile Include="smartPointer.cpp">
       <Filter>Modern C++</Filter>
+    </ClCompile>
+    <ClCompile Include="1장_0602.cpp">
+      <Filter>전문가를 위한 C++</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
