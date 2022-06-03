@@ -25,5 +25,8 @@
     <ClCompile Include="1장_0602.cpp">
       <Filter>전문가를 위한 C++</Filter>
     </ClCompile>
+    <ClCompile Include="1장_0603.cpp">
+      <Filter>전문가를 위한 C++</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
