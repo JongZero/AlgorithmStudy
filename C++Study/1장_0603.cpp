@@ -162,7 +162,52 @@ unsigned int arrSize = arr.size();
 // 예를 들어 다음과 같이 배열이 정의되어 있다고 하자.
 std::array<int, 3> values = { 11,22,33 };
 
+// 이 상태에서 x, y, z란 변수를 선언할 때 각각 앞에 나온 values 배열에 담긴 값으로 초기화할 수 있다.
+// 구조적 바인딩을 적용하려면 반드시 auto 키워드를 붙여야 한다. 
+// 예를 들어 auto 자리에 int를 지정하면 안 된다.
+void b()
+{
+	auto [x, y, z] = values;
+}
+
+// 구조적 바인딩에서는 왼쪽에 나온 선언할 변수 개수와 오른쪽에 나온 표현식 값 개수가 반드시 일치해야 한다.
+// 구조적 바인딩은 배열뿐만 아니라 모든 멤버가 non-static이면서 public으로 선언된 데이터 구조라면 어떤 것(struct, pair, tuple 등)도 적용할 수 있다.
+// 예를 들면 다음과 같다.
+void P()
+{
+	struct Point { double mX, mY, mZ; };
+	Point point;
+	point.mX = 1.0; point.mY = 2.0; point.mZ = 3.0;
+	auto [x, y, z] = point;
+}
+
+/// 이니셜라이저 리스트
+// 이니셜라이저 리스트는 <initializer_list> 헤더 파일에 정의되어 있으며, 이를 활용하면 여러 인수를 받는 함수를 쉽게 작성할 수 있다.
+// 엄밀히 말해 initializer_list는 클래스 템플릿이다.
+// 그래서 vector에 저장할 객체의 타입을 지정할 때처럼 원소 타입에 대한 리스트를 꺾쇠괄호로 묶어서 지정해야 한다.
+
+// 예제
+#include <initializer_list>
+using namespace std;
+
+int makeSum(initializer_list<int> lst)
+{
+	int total = 0;
+	for (int value : lst)
+	{
+		total += value;
+	}
+	return total;
+}
+
 int main()
 {
-	
+	int a = makeSum({ 1, 2, 3 });
+	int b = makeSum({ 10, 20, 30, 40, 50, 60 });
 }
+
+// 이니셜라이저 리스트는 타입에 안전(타입 세이프)하다.
+// 그래서 이니셜라이저 리스트를 정의할 때는 지정한 타입만 허용한다.
+// 앞에서 makeSum() 함수를 정의할 때 이니셜라이저 리스트에 정수 타입 원소만 들어가도록 지정했다.
+// 그래서 다음과 같이 인수로 double 타입 값을 지정하면 컴파일 에러 또는 경고 메시지가 출력된다.
+int c = makeSum({ 1, 2, 3.0 });
