@@ -22,10 +22,13 @@
     <ClCompile Include="smartPointer.cpp">
       <Filter>Modern C++</Filter>
     </ClCompile>
-    <ClCompile Include="1장_0602.cpp">
+    <ClCompile Include="1장_1.2_0605.cpp">
       <Filter>전문가를 위한 C++</Filter>
     </ClCompile>
-    <ClCompile Include="1장_0603.cpp">
+    <ClCompile Include="1장_1.1_0602.cpp">
+      <Filter>전문가를 위한 C++</Filter>
+    </ClCompile>
+    <ClCompile Include="1장_1.1_0603.cpp">
       <Filter>전문가를 위한 C++</Filter>
     </ClCompile>
   </ItemGroup>

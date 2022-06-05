@@ -16,7 +16,7 @@ int main()
 		std::cin >> inputVec[i];
 	}
 
-
+	
 
 	return 0;
 }
