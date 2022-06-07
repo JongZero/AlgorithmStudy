@@ -11,6 +11,12 @@
     <Filter Include="전문가를 위한 C++">
       <UniqueIdentifier>{c8e6ec09-3497-4f46-84ad-23a0854acb68}</UniqueIdentifier>
     </Filter>
+    <Filter Include="전문가를 위한 C++\1장_C++와 표준 라이브러리 초단기 속성 코스">
+      <UniqueIdentifier>{e4f92c96-5d64-4bdc-b1d1-c00df948302b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="전문가를 위한 C++\2장_스트링과 스트링 뷰 다루기">
+      <UniqueIdentifier>{d2c827c6-1270-46b7-92a8-81ac623cf7a0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -22,17 +28,28 @@
     <ClCompile Include="smartPointer.cpp">
       <Filter>Modern C++</Filter>
     </ClCompile>
-    <ClCompile Include="1장_1.2_0605.cpp">
-      <Filter>전문가를 위한 C++</Filter>
-    </ClCompile>
     <ClCompile Include="1장_1.1_0602.cpp">
-      <Filter>전문가를 위한 C++</Filter>
+      <Filter>전문가를 위한 C++\1장_C++와 표준 라이브러리 초단기 속성 코스</Filter>
     </ClCompile>
     <ClCompile Include="1장_1.1_0603.cpp">
-      <Filter>전문가를 위한 C++</Filter>
+      <Filter>전문가를 위한 C++\1장_C++와 표준 라이브러리 초단기 속성 코스</Filter>
+    </ClCompile>
+    <ClCompile Include="1장_1.2_0605.cpp">
+      <Filter>전문가를 위한 C++\1장_C++와 표준 라이브러리 초단기 속성 코스</Filter>
     </ClCompile>
     <ClCompile Include="1장_1.3~_0606.cpp">
-      <Filter>전문가를 위한 C++</Filter>
+      <Filter>전문가를 위한 C++\1장_C++와 표준 라이브러리 초단기 속성 코스</Filter>
     </ClCompile>
+    <ClCompile Include="1장_직원관리시스템_0606.cpp">
+      <Filter>전문가를 위한 C++\1장_C++와 표준 라이브러리 초단기 속성 코스</Filter>
+    </ClCompile>
+    <ClCompile Include="2장_2.1~_0607.cpp">
+      <Filter>전문가를 위한 C++\2장_스트링과 스트링 뷰 다루기</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="1장_직원관리시스템_0606.h">
+      <Filter>전문가를 위한 C++\1장_C++와 표준 라이브러리 초단기 속성 코스</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
