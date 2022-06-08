@@ -43,7 +43,10 @@
     <ClCompile Include="1장_직원관리시스템_0606.cpp">
       <Filter>전문가를 위한 C++\1장_C++와 표준 라이브러리 초단기 속성 코스</Filter>
     </ClCompile>
-    <ClCompile Include="2장_2.1~_0607.cpp">
+    <ClCompile Include="2장_2.1.3~_0608.cpp">
+      <Filter>전문가를 위한 C++\2장_스트링과 스트링 뷰 다루기</Filter>
+    </ClCompile>
+    <ClCompile Include="2장_2.1.1~_0607.cpp">
       <Filter>전문가를 위한 C++\2장_스트링과 스트링 뷰 다루기</Filter>
     </ClCompile>
   </ItemGroup>
