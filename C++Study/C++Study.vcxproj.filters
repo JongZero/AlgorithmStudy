@@ -17,6 +17,9 @@
     <Filter Include="전문가를 위한 C++\2장_스트링과 스트링 뷰 다루기">
       <UniqueIdentifier>{d2c827c6-1270-46b7-92a8-81ac623cf7a0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="전문가를 위한 C++\3장_코딩 스타일">
+      <UniqueIdentifier>{b2b61bcc-4768-4f1f-9e06-500d1ed6f141}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -48,6 +51,9 @@
     </ClCompile>
     <ClCompile Include="2장_2.1.1~_0607.cpp">
       <Filter>전문가를 위한 C++\2장_스트링과 스트링 뷰 다루기</Filter>
+    </ClCompile>
+    <ClCompile Include="3장_3.1~_0609.cpp">
+      <Filter>전문가를 위한 C++\3장_코딩 스타일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -58,14 +58,14 @@ string to_string(long double val);
 // 여기 나온 변환 함수들은 제일 앞에 나온 공백 문자를 무시하고,
 // 변환에 실패하면 invalid_argument 익셉션을 던지고,
 // 변환된 값이 리턴 타입의 범위를 벗어나면 out_of_range 익셉션을 던진다.
-//int stoi(const string & str, size_t* idx = 0, int base = 10);
-//long stol(const string & str, size_t* idx = 0, int base = 10);
-//unsigned long stoul(const string & str, size_t* idx = 0, int base = 10);
-//long long stoll(const string & str, size_t* idx = 0, int base = 10);
-//unsigned long long stoull(const string & str, size_t* idx = 0, int base = 10);
-//float stof(const string & str, size_t* idx = 0);
-//double stod(const string & str, size_t* idx = 0);
-//long double stold(const string & str, size_t* idx = 0);
+int stoi(const string & str, size_t* idx = 0, int base = 10);
+long stol(const string & str, size_t* idx = 0, int base = 10);
+unsigned long stoul(const string & str, size_t* idx = 0, int base = 10);
+long long stoll(const string & str, size_t* idx = 0, int base = 10);
+unsigned long long stoull(const string & str, size_t* idx = 0, int base = 10);
+float stof(const string & str, size_t* idx = 0);
+double stod(const string & str, size_t* idx = 0);
+long double stold(const string & str, size_t* idx = 0);
 
 #include <iostream>
 
@@ -212,8 +212,10 @@ cout << "Raw : " << extractExtension(string_view(raw, length)) << endl;
 // string 생성자를 직접 호출하거나 string_view::data()로 생성해야 한다.
 // 예를 들어 다음과 같이 const string&를 매개변수로 받는 함수가 있다고 하자.
 void handleExtension(const string& extension) { /* ... */ }
+
 // 이 함수를 다음과 같이 호출하면 제대로 동작하지 않는다.
 handleExtension(extractExtension("my file.ext"));
+
 // 제대로 호출하려면 다음 두 가지 방식 중 하나를 적용한다.
 handleExtension(extractExtension("my file.ext").data());	// data() 메서드
 handleExtension(string(extractExtension("my file.ext")));	// 명시적 ctor
