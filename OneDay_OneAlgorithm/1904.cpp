@@ -3,7 +3,7 @@
 #include <string>
 
 using namespace std;
-long long dpArray[1000001] = { 0, };
+long long dpVec[1000001] = { 0, };
 
 int main()
 {
@@ -21,17 +21,17 @@ int main()
 	// 6	000000 000011 001100 110000 100100 100001 001111 110011 111100 100111 111001 111111 1 + 4 + 5 + 1
 	// 7	0000001 0000100 0010000 1000000 
 
-	dpArray[1] = 1;
-	dpArray[2] = 2;
+	dpVec[1] = 1;
+	dpVec[2] = 2;
 
 	int k = 15746;
 
 	for (int i = 3; i <= n; i++)
 	{
-		dpArray[i] = ((dpArray[i - 1] % k) + (dpArray[i - 2] % k)) % k;
+		dpVec[i] = ((dpVec[i - 1] % k) + (dpVec[i - 2] % k)) % k;
 	}
 
-	cout << dpArray[n];
+	cout << dpVec[n];
 
 	return 0;
 }

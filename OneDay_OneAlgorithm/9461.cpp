@@ -18,7 +18,7 @@ int main()
 		cin >> input;
 
 		long long nums[101] = { 0, };
-		
+
 		nums[1] = 1;
 		nums[2] = 1;
 		nums[3] = 1;
