@@ -1,3 +1,2 @@
-﻿  3장_3.1~_0609.cpp
-MSVCRTD.lib(exe_main.obj) : error LNK2019: main"int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
-D:\Git\AlgorithmStudy\x64\Debug\C++Study.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
+﻿  1장_C++에 왔으면 C++의 법을 따릅시다_0616.cpp
+  C++Study.vcxproj -> D:\Git\AlgorithmStudy\x64\Debug\C++Study.exe

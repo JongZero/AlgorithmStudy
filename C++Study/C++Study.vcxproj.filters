@@ -23,6 +23,12 @@
     <Filter Include="전문가를 위한 C++\4장_전문가다운 C++ 프로그램 디자인">
       <UniqueIdentifier>{522b8982-64ec-4f23-a77d-f552df2726d4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="전문가를 위한 C++\5장_객체지향 디자인">
+      <UniqueIdentifier>{bada93c2-57a0-40d3-9f12-14e80ee1cc7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="이펙티브 C++">
+      <UniqueIdentifier>{c0c994e1-872f-4d8a-8151-3a98f3db2a5c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -63,6 +69,15 @@
     </ClCompile>
     <ClCompile Include="4장_4.1~_0612.cpp">
       <Filter>전문가를 위한 C++\4장_전문가다운 C++ 프로그램 디자인</Filter>
+    </ClCompile>
+    <ClCompile Include="4장_4.5~_0614.cpp">
+      <Filter>전문가를 위한 C++\4장_전문가다운 C++ 프로그램 디자인</Filter>
+    </ClCompile>
+    <ClCompile Include="5장_5.1~_0616.cpp">
+      <Filter>전문가를 위한 C++\5장_객체지향 디자인</Filter>
+    </ClCompile>
+    <ClCompile Include="1장_C++에 왔으면 C++의 법을 따릅시다_0616.cpp">
+      <Filter>이펙티브 C++</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
