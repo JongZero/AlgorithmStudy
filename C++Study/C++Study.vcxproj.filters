@@ -79,6 +79,9 @@
     <ClCompile Include="1장_C++에 왔으면 C++의 법을 따릅시다_0616.cpp">
       <Filter>이펙티브 C++</Filter>
     </ClCompile>
+    <ClCompile Include="2장_생성자, 소멸자 및 대입 연산자.cpp">
+      <Filter>이펙티브 C++</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="1장_직원관리시스템_0606.h">
