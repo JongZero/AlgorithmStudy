@@ -29,6 +29,9 @@
     <Filter Include="이펙티브 C++">
       <UniqueIdentifier>{c0c994e1-872f-4d8a-8151-3a98f3db2a5c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Intern">
+      <UniqueIdentifier>{b5bde277-0a63-4ab6-9610-e23349580f40}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -81,6 +84,12 @@
     </ClCompile>
     <ClCompile Include="2장_생성자, 소멸자 및 대입 연산자.cpp">
       <Filter>이펙티브 C++</Filter>
+    </ClCompile>
+    <ClCompile Include="push_back과emplace_back의차이.cpp">
+      <Filter>Intern</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>Intern</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
