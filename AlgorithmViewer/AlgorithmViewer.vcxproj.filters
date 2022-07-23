@@ -27,7 +27,7 @@
     <ClInclude Include="MazeSolvingProblem.h">
       <Filter>알고리즘</Filter>
     </ClInclude>
-    <ClInclude Include="AlgorithmBase.h">
+    <ClInclude Include="IAlgorithmBase.h">
       <Filter>알고리즘</Filter>
     </ClInclude>
   </ItemGroup>

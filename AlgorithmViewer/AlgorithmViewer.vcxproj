@@ -147,7 +147,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="AlgorithmBase.h" />
+    <ClInclude Include="IAlgorithmBase.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="MazeSolvingProblem.h" />
     <ClInclude Include="Resource.h" />

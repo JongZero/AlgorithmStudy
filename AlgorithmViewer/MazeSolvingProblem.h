@@ -1,11 +1,11 @@
 #pragma once
-#include "AlgorithmBase.h"
+#include "IAlgorithmBase.h"
 #include <stack>
 #include <vector>
 
 #define MAP_SIZE 6
 
-class MazeSolvingProblem : public AlgorithmBase
+class MazeSolvingProblem : public IAlgorithmBase
 {
 public:
 	MazeSolvingProblem();

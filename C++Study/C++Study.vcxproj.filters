@@ -91,6 +91,9 @@
     <ClCompile Include="test.cpp">
       <Filter>Intern</Filter>
     </ClCompile>
+    <ClCompile Include="set에서의 emplace와 insert.cpp">
+      <Filter>Intern</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="1장_직원관리시스템_0606.h">
