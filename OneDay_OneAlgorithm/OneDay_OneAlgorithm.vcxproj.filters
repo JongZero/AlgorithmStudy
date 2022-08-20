@@ -464,6 +464,18 @@
     <Filter Include="알고리즘 문제풀이\22_08\08_19">
       <UniqueIdentifier>{486361e6-f260-43ef-b5d6-4db68b9e28ba}</UniqueIdentifier>
     </Filter>
+    <Filter Include="10주완성 C++ 코딩테스트 인프런 강의">
+      <UniqueIdentifier>{80bc3d33-bc2d-457c-ab1b-ba9ebfd4edd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10주완성 C++ 코딩테스트 인프런 강의\1주차">
+      <UniqueIdentifier>{7ce14685-5a2a-421c-97dd-07b8813c5e32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10주완성 C++ 코딩테스트 인프런 강의\0주차">
+      <UniqueIdentifier>{649df867-6b2c-4a85-ad1f-b45cdd4e258f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10주완성 C++ 코딩테스트 인프런 강의\알고리즘교안">
+      <UniqueIdentifier>{649a7803-7780-4477-8eb4-e280d1347574}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1008.cpp">
@@ -1074,6 +1086,12 @@
     </ClCompile>
     <ClCompile Include="3003.cpp">
       <Filter>알고리즘 문제풀이\22_08\08_19</Filter>
+    </ClCompile>
+    <ClCompile Include="강의소개와 C++의 기본.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\0주차</Filter>
+    </ClCompile>
+    <ClCompile Include="알고리즘교안.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\알고리즘교안</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
