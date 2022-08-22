@@ -2,7 +2,7 @@
 #include <unordered_map>
 using namespace std;
 
-int main()
+int main2()
 {
 	/*
 	int m1, m2;
@@ -134,12 +134,58 @@ int main()
 	//for (int i = 5; i <= 10; i++) a.push_back(i);
 	//cout << lower_bound(a.begin(), a.end(), 3) - a.begin() << "\n";
 
-	vector<int> v = { 2,3,4,5,7 };
+	//vector<int> v = { 2,3,4,5,7 };
 
-	cout << *upper_bound(v.begin(), v.end(), 0) << '\n';
+	//cout << *upper_bound(v.begin(), v.end(), 0) << '\n';
+
+
+	string a = "abc";
+	cout << atoi(a.c_str());
+	
+	pair<int, int> p;
+	p = make_pair(1, 2);
+	int aa, bb;
+	tie(aa, bb) = p;
+
+	cout << aa << " " << bb;
+
+	vector<int> v;
+	auto it = find(v.begin(), v.end(), 100);
+	if (it == v.end())
+	{
+		// 못찾음!!
+	}
+
+	map<int, int> mm;
+	auto itt = mm.find(100);
+	if (itt == mm.end())
+	{
+		// 못찾음!!
+		cout << "모샂음!!";
+	}
+
+	if (mm[1000] == 1)
+	{
+		mm[1000] = 111;
+	}
+
+	struct Point
+	{
+		int x, y;
+		bool operator < (const Point& a) const
+		{
+			if (x == a.x)
+			{
+				return y < a.y;
+			}
+
+			return x < a.x;	// 오름차순 (작은 것이 앞에)
+		}
+	};
+
+	// priority_queue는 위와 반대, 위의 경우가 내림차순임
 
 	return 0;
-
 }
 
 // split
@@ -155,7 +201,133 @@ vector<string> split(string input, string check)
 		ret.push_back(token);
 		input.erase(0, pos + check.length());
 	}
-
 	ret.push_back(input);
 	return ret;
+}
+
+// 최대 공약수
+int getMaxCommonNum(int a, int b)
+{
+	if (a == 0) return b;
+	return getMaxCommonNum(b % a, a);
+}
+
+// 최소 공배수 ( a * b / 최대공약수(a, b) )
+int lcm(int a, int b)
+{
+	return (a * b) / getMaxCommonNum(a, b);
+}
+
+// 에라토스테네스의 체
+// 1 ~ 1000 까지 중 소수를 모두 출력해라.
+void eratos(int n)
+{
+	vector<bool> eraBool(n + 1);
+
+	for (int i = 2; i <= n; i++)
+	{
+		if (eraBool[i] == true)
+			continue;
+
+		for (int j = i * 2; j <= n; j += i)
+		{
+			eraBool[j] = true;
+		}
+	}
+
+	for (int i = 2; i <= n; i++)
+	{
+		if (eraBool[i] == false)
+			cout << i << '\n';
+	}
+}
+
+// 에라토스테네스의체2
+// 1 ~ 1000만까지 소수 출력해라.
+bool isPrime(int n)
+{
+	if (n <= 1)
+		return false;
+
+	if (n == 2)
+		return true;
+
+	if (n % 2 == 0)
+		return false;
+
+	for (int i = 2; i * i <= n; i++)
+	{
+		if (n % i == 0)
+			return false;
+	}
+
+	return true;
+}
+
+
+// 등차수열의 합
+// n(n+1) / 2
+
+// 승수 구하기
+// pow -> double을 int로 형 변환
+// 제곱근 구하기
+// 위와 마찬가지.
+
+// lower_bound
+// upper_bound
+
+int main()
+{
+	vector<int> v = { 1,2,3,4,5 };
+
+	cout << lower_bound(v.begin(), v.end(), 4) - v.begin() << '\n';
+	cout << upper_bound(v.begin(), v.end(), 4) - v.begin() << '\n';
+
+	rotate(v.begin(), v.begin() + v.size() - 1, v.end());	// 2 3 4 5 1
+	for (int i = 0; i < v.size(); i++)
+		cout << v[i] << ' ';
+
+	cout << "\n\n";
+	int sum = accumulate(v.begin(), v.end(), 0);
+	cout << sum;
+
+	int maxNum = *max_element(v.begin(), v.end());
+	int minNum = *min_element(v.begin(), v.end());
+
+	// n 진법 변환
+	vector<int> jin;
+	int n = 10;
+	int b = 2;
+	while (n > 1)
+	{
+		jin.push_back(n % b);
+		n /= b;
+	}
+	if (n == 1) jin.push_back(1);
+	reverse(jin.begin(), jin.end());
+
+	cout << "\n\n";
+	for (int i = 0; i < jin.size(); i++)
+	{
+		cout << jin[i];
+	}
+
+	return 0;
+}
+
+// 2차원 배열 회전
+// 왼쪽으로 90도 회전
+void rotate90(vector<vector<int>>& key)
+{
+	int m = key.size();
+	vector<vector<int>> temp(m, vector<int>(m, 0));
+	for (int i = 0; i < m; i++)
+	{
+		for (int j = 0; j < m; j++)
+		{
+			temp[i][j] = key[j][m - i - 1];
+			temp[i][j] = key[m - j - 1][i];	// 오른쪽으로 90도 회전
+		}
+	}
+	key = temp;
 }

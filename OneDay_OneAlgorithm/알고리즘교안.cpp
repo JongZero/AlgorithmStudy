@@ -460,11 +460,13 @@ int ret = (int)sqrt(n);
 	rotate(v.begin(), v.begin() + 1, v.end());	// 2 3 4 5 6 7 8 9 1
 
 	// 뒤로 할 땐 이렇게
-	rotate(v.begin(), v.begin() - 1, v.end());	// 9 1 2 3 4 5 6 7 8
+	rotate(v.begin(), v.begin() + v.size() - 1, v.end());	// 9 1 2 3 4 5 6 7 8
 
 // 배열의 합
 	vector<int> v = { 1,2,3,4,5,6,7,8,9,10 };
 	int sum = accumulate(v.begin(), v.end(), 0);
+	// 위에서 0은 초기값. 즉 0에다가 v의 원소들을 더하는 것임
+	// 10을 넣으면 10 + v 원소들의 합
 
 // 배열 중 가장 큰 요소, max_element
 	int maxNum = *max_element(v.begin(), v.end());

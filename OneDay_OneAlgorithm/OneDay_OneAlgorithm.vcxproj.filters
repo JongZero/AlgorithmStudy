@@ -1099,5 +1099,8 @@
     <ClCompile Include="알고리즘교안_연습.cpp">
       <Filter>10주완성 C++ 코딩테스트 인프런 강의\알고리즘교안</Filter>
     </ClCompile>
+    <ClCompile Include="조합_재귀.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\0주차</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
