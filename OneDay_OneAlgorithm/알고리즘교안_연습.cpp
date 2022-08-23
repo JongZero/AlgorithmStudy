@@ -1,4 +1,4 @@
-#include <stdc++.h>
+#include <bits/stdc++.h>
 #include <unordered_map>
 using namespace std;
 
@@ -330,4 +330,210 @@ void rotate90(vector<vector<int>>& key)
 		}
 	}
 	key = temp;
+}
+
+// split
+vector<string> split(string input, string check)
+{
+	vector<string> ret;
+	long long pos = 0;
+	string token;
+	while ((pos = input.find(check)) != string::npos)
+	{
+		token = input.substr(0, pos);
+		ret.push_back(token);
+		input.erase(0, pos + check.length());
+	}
+	ret.push_back(input);
+	return ret;
+}
+
+// atoi(s.c_str())
+string s = "12414";
+cout << atoi(s.c_str());
+
+// greater<int> 내림차순
+// less<int> 오름차순
+
+vector<int> v;
+auto findRet = find(v.begin(), v.end(), 100);
+if (findRet == v.end())
+{
+	// 못찾음!
+}
+
+// vector 선언
+vector<int> v(5, 100);
+
+struct Point
+{
+	int x, y;
+
+	bool operator < (const Point& a) const
+	{
+		if (x == a.x)
+		{
+			y < a.y;		// 오름차순
+		}
+
+		return x < a.x;
+	}
+};
+
+// 그러나, priority_queue는 위와 반대이다.
+priority_queue<int, vector<int>, greater<int>> pq;	// 오름차순
+
+// 평균 시간복잡도
+// 자료 구조			접근		탐색		삽입		삭제
+// 배열				O(1)	O(n)	O(n)	O(n)
+// 스택				O(n)	O(n)	O(1)	O(1)
+// 큐				O(n)	O(n)	O(1)	O(1)
+// 이중 연결 리스트	O(n)	O(n)	O(1)	O(1)
+// 해시 테이블		O(1)	O(1)	O(1)	O(1)
+// 이진 탐색 트리		O(logn)	O(logn)	O(logn)	O(logn)
+// AVL 트리			O(logn)	O(logn)	O(logn)	O(logn)
+// 레드 블랙 트리		O(logn)	O(logn)	O(logn)	O(logn)
+
+// 최악 시간복잡도
+// 자료 구조			접근		탐색		삽입		삭제
+
+// 순열과 조합
+// 순열 : nPr = n! / (n-r)!
+vector<int> vvv = { 1,2,3,4,5 };
+do
+{
+	cout << vvv[0];
+} while (next_permutation(vvv.begin(), vvv.end()));
+// 조합 : nCr = n! / r!(n-r)!
+vector<int> combiV;
+void Combi(int n, int r, int start)
+{
+	if (combiV.size() == r)
+	{
+		// logic
+	}
+
+	for (int i = start + 1; i < n; i++)
+	{
+		combiV.push_back(input[i]);
+		Combi(n, r, i);
+		combiV.pop_back();
+	}
+}
+
+for (int i = 0; i < n; i++)
+{
+	for (int j = i + 1; j < n; j++)
+	{
+		for (int k = j + 1; k < n; k++)
+		{
+
+		}
+	}
+}
+
+// 최대공약수, 최소공배수
+int maxCommonNum(int a, int b)
+{
+	if (a == 0) return b;
+
+	return maxCommonNum(b % a, a);
+}
+
+// 최소 공배수 = a * b / 최대공약수(a, b)
+int lcm(int a, int b)
+{
+	return a * b / maxCommonNum(a, b);
+}
+
+// 에라토스테네스의 체1
+// 배열의 길이 1000
+void era(int n)
+{
+	vector<bool> eraBool(n + 1);
+
+	for (int i = 2; i <= n; i++)
+	{
+		if (eraBool[i] == true)
+			continue;
+
+		for (int j = i * 2; j <= n; j += i)
+		{
+			eraBool[j] = true;
+		}
+	}
+
+	for (int i = 2; i <= n; i++)
+	{
+		if (eraBool[i] == false)
+			cout << i << '\n';
+	}
+}
+
+// 배열이 너무 클 때 (1000만 이상)
+bool isPrime(int n)
+{
+	if (n <= 1) return false;
+	if (n == 2) return true;
+	if (n % 2 == 0) return false;
+	for (int i = 2; i * i <= n; i++)
+	{
+		if (n % i == 0)
+			return false;
+	}
+	return true;
+}
+
+// 등차수열의 합
+// n(n+1) / 2
+
+// 승수 구하기
+// pow 사용, double형이니 형 변환
+// 제곱근 구하기
+// sqrt 사용, double형이니 형 변환
+
+// lower_bound
+// upper_bound
+vector<int> vBound = { 1,2,3,4,5,6 };
+cout << lower_bound(vBound.begin(), vBound.end(), 4) - vBound.begin();
+
+// 시계방향과 반시계 방향회전
+vector<int> vv = { 1,2,3,4,5 };
+rotate(vv.begin(), vv.begin() + 1, vv.end());	// 2. 3. 4. 5. 1
+rotate(vv.begin(), vv.begin() + vv.size() - 1, vv.end())	// 5, 1, 2, 3, 4
+
+// 배열의 합
+accumulate(vv.begin(), vv.end(), 0);
+
+// 배열 중 가장 큰 요소
+int amx = *max_element(vv.begin(), vv.end());
+
+// n진법 변환
+int n = 10;
+int b = 2;
+vector<int> ret;
+while (n > 1)
+{
+	ret.push_back(n % b);
+	n /= b;
+}
+if (n == 1) ret.push_back(1);
+reverse(ret.begin(), ret.end());
+
+// 2차원 배열 회전 함수
+// 왼쪽으로 90도 회전
+void Rotate90(vector<vector<int>>& key)
+{
+	int m = key.size();
+	vector<vector<int>> temp(m, vector<int>(m, 0));
+
+	for (int i = 0; i < m; i++)
+	{
+		for (int j = 0; j < m; j++)
+		{
+			temp[i][j] = key[j][m - i - 1];
+		}
+	}
+	key = temp;
+	return;
 }
