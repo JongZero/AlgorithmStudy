@@ -276,7 +276,7 @@ bool isPrime(int n)
 // lower_bound
 // upper_bound
 
-int main()
+int main3()
 {
 	vector<int> v = { 1,2,3,4,5 };
 
@@ -536,4 +536,162 @@ void Rotate90(vector<vector<int>>& key)
 	}
 	key = temp;
 	return;
+}
+
+// 08/24
+#include <bits/stdc++.h>
+using namespace std;
+
+while (cin >> s)
+{
+
+}
+
+cout.precision(7);	// 정수부분, 소수부분 합쳐서 7자리, 마지막 자리는 반올림됨
+
+vector<string> split(string input, string check)
+{
+	vector<string> ret;
+	long long pos = 0;
+	string token;
+	while ((pos = input.find(check)) != string::npos)
+	{
+		token = input.substr(0, pos);
+		ret.push_back(token);
+		input.erase(0, pos + check.length());
+	}
+	ret.push_back(input);
+	return ret;
+}
+
+// atoi(s.c_str())
+// 문자일 경우 0, 숫자일 경우 숫자 리턴
+
+// tie(a, b) = pi
+
+// less<int>() : 오름차순
+// greater<int>() : 내림차순
+
+struct Point
+{
+	int x, y;
+	bool operator < (const Point& a) const
+	{
+		if (x == a.x)
+		{
+			return y < a.y;
+		}
+		return x < a.x;		// 오름차순, 작은 것이 앞에
+	}
+};
+
+// 그러나 priority_queue는 위와 반대이다. 위의 경우에 내림차순임.
+// priority_queue는 다익스트라, 그리디 등에 쓰인다.
+
+// 순열
+// nPr = n! / (n-r)!
+
+// 조합
+// nCr = n! / r!(n-r)!
+
+// 최대 공약수
+int gcd(int a, int b)
+{
+	if (a == 0) return b;	// 기저사례
+	return gcd(b % a, a);
+}
+
+// 최소 공배수
+int lcm(int a, int b)
+{
+	return a * b / gcd(a, b);
+}
+
+// 에라토스테네스의 체1
+void era(int n)
+{
+	vector<bool>era(n + 1);
+
+	for (int i = 2; i <= n; i++)
+	{
+		if (era[i] == true)
+			continue;
+
+		for (int j = 2 * i; j <= n; j += i)
+		{
+			era[j] = true;
+		}
+	}
+
+	for (int i = 2; i <= n; i++)
+	{
+		if (era[i] == false)
+			cout << i << ' ';
+	}
+}
+
+// 배열의 크기가 1000만 이상일 경우
+bool isPrime(int n)
+{
+	if (n <= 1) return false;
+	if (n == 2) return true;
+	if (n % 2 == 0) return false;
+	for (int i = 2; i * i <= n; i++)
+	{
+		if (n % i == 0)
+			return false;
+	}
+	return true;
+}
+
+// 등차수열의 합
+// n(n+1) / 2
+
+// 승수 구하기 pow 사용 double형 반환됨
+// 제곱근 구하기 sqrt 사용 double형 반환됨
+
+// lower_bound, upper_bound
+vector<int> v = { 1,2,3,4,4,5 };
+lower_bound(v.begin(), v.end(), 4) - v.begin();	// 3
+upper_bound(v.begin(), v.end(), 4) - v.begin();	// 5
+
+lower_bound(v.begin(), v.end(), 9) - v.begin();	// 6
+upper_bound(v.begin(), v.end(), 9) - v.begin();	// 6
+
+// 시계 방향 회전
+rotate(v.begin(), v.begin() + 1, v.end());	// 2 3 4 4 5 1
+rotate(v.begin(), v.begin() + v.size() - 1, v.end())	// 5 1 2 3 4 4
+
+// 배열의 합
+int sum = accumulate(v.begin(), v.end(), 0);
+
+// 배열 중 가장 큰 요소
+int max = *max_element(v.begin(), v.end());
+
+// n 진법 변환
+int n = 100;
+int b = 2;
+vector<int> ret;
+while (n > 1)
+{
+	ret.push_back(n % b);
+	n /= b;
+}
+if (n == 1) ret.push_back(1);
+reverse(ret.begin(), ret.end());
+
+// 2차원 배열 회전
+// 왼쪽으로 90도 회전
+void rotate90(vector<vector<int>>& key)
+{
+	int m = key.size();
+	vector<vector<int>> temp;
+	for (int i = 0; i < m; i++)
+	{
+		for (int j = 0; j < m; j++)
+		{
+			temp[i][j] = key[j][m - i - 1];
+		}
+	}
+	key = temp;
 }
