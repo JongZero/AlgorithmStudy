@@ -695,3 +695,223 @@ void rotate90(vector<vector<int>>& key)
 	}
 	key = temp;
 }
+
+// 2022/08/25(목)
+#include <bits/stdc++.h>
+
+int m1, m2;
+scanf("%d.%d", &m1, &m2);
+
+while (cin >> n)
+{
+
+}
+
+cout.precision(7);
+printf("%02d", m);
+printf("%.6lf", d);
+
+// 형변환
+
+// split
+vector<string> split(string input, string check)
+{
+	vector<string> ret;
+	long long pos;
+	string token;
+	while ((pos = input.find(check)) != string::npos)
+	{
+		token = input.substr(0, pos);
+		ret.push_back(token);
+		input.erase(0, pos + check.length());
+	}
+	ret.push_back(input);
+	return ret;
+}
+
+// atoi(s.c_str())
+// 입력받은게 문자라면 0, 아니라면 숫자 반환
+
+// 자료 구조
+// tie(a, b) = pa
+
+// sort
+// greater<int>() : 내림차순
+// less<int>() : 오름차순
+
+// vector의 find
+auto it = find(vector.begin(), vector.end(), 100);
+if (it == vector.end())
+{
+	// 못찾음
+}
+
+// memcpy
+int a[5];
+int temp[5];
+memcpy(temp, a, sizeof(a));
+
+struct Point
+{
+	int x, y, z;
+	bool operator < (const Point& a) const
+	{
+		if (x == a.x)
+		{
+			if (y == a.y)
+			{
+				return z < a.z;
+			}
+
+			return y < a.y;
+		}
+
+		return x < a.x;		// 오름차순, priority_queue는 반대. 내림차순임
+	}
+};
+
+priority_queue<int, vector<int>, greater<int>()> pq;	// 오름차순...
+priority_queue<Point, vector<Point>> pq2;
+
+// 순열
+// nPr = n! / (n-r)!
+vector<int> v = { 1,2,3,4 };
+do
+{
+	cout << v[0];
+} while (next_permutation(v.begin(), v.end()));
+
+// 조합
+// nCr = n! / r!(n-r)!
+void Combi(int n, int r, int start, vector<int>& v)
+{
+	if (v.size() == r)
+	{
+		// 로직
+	}
+	for (int i = start + 1; i < n; i++)
+	{
+		v.push_back(input[i]);
+		Combi(n, r, i, v);
+		v.pop_back();
+	}
+}
+
+void main()
+{
+	Combi(5, 3, -1, v);
+}
+
+for (int i = 0; i < n; i++)
+{
+	for (int j = i + 1; j < n; j++)
+	{
+		for (int k = j + 1; k < n; k++)
+		{
+
+		}
+	}
+}
+
+// 최대공약수
+int gcd(int a, int b)
+{
+	if (a == 0) return b;
+	return gcd(b % a, a);
+}
+
+int lcm(int a, int b)
+{
+	return a * b / gcd(a, b);
+}
+
+// 에라토스테네스의 체
+void era(int n)
+{
+	vector<bool> eraBool(n + 1);
+	for (int i = 2; i <= n; i++)
+	{
+		if (eraBool[i] == true)
+			continue;
+
+		for (int j = 2 * i; j <= n; j += i)
+		{
+			eraBool[j] = true;
+		}
+	}
+	for (int i = 2; i <= n; i++)
+	{
+		if (eraBool[i] == false)
+			cout << i;
+	}
+}
+
+// 에라토스 2
+bool isPrime(int n)
+{
+	if (n <= 1) return false;
+	if (n == 2) return true;
+	if (n % 2 == 0) return false;
+	for (int i = 2; i * i <= n; i++)
+	{
+		if (n % i == 0)
+			return false;
+	}
+	return true;
+}
+
+// 등차수열의 합
+// n(n+1)/2
+
+// pow -> double형 반환함
+// sqrt -> double형 반환함
+
+vector<int> v = { 1,2,2,3,4 };
+lower_bound(v.begin(), v.end(), 2) - v.begin();	// 1
+upper_bound(v.begin(), v.end(), 2) - v.begin();	// 3
+
+// 5
+// 5
+// 5
+
+// 0
+// 0
+// 0
+
+// 시계방향 회전
+rotate(v.begin(), v.begin() + 1, v.end());	// 2 2 3 4 1
+rotate(v.begin(), v.begin() + v.size() - 1, v.end());	// 4 1 2 2 3
+
+// 배열의 합
+int sum = accumulate(v.begin(), v.end(), 0);
+
+// 최대값, 최소값
+int maxNum = *max_element(v.begin(), v.end());
+
+// n진법 변환
+vector<int> ret;
+int n = 100;
+int b = 2;
+while (n > 1)
+{
+	ret.push_back(n % b);
+	n /= b;
+}
+if (n == 1) ret.push_back(1);
+reverse(ret.begin(), ret.end());
+
+// 2차원 배열 회전하는 함수
+// 왼쪽으로 90도 회전
+void Rotate90(vector<vector<int>>& key)
+{
+	int m = key.size();
+	vector<vector<int>> temp;
+	for (int i = 0; i < m; i++)
+	{
+		for (int j = 0; j < m; j++)
+		{
+			temp[i][j] = key[j][m - i - 1];
+		}
+	}
+	key = temp;
+}
