@@ -915,3 +915,204 @@ void Rotate90(vector<vector<int>>& key)
 	}
 	key = temp;
 }
+
+// 2022/08/26
+#include <bits/stdc++.h>
+using namespace std;
+
+int max = 987654321;
+max = 1e9;
+
+while (cin >> n)
+
+// float보다 double을 쓰자.
+
+cout.precision(7);	// 정수 + 소수 부분 합쳐서 7
+
+printf("%02d\n", m);
+printf("%.6lf\n", d);
+
+// lf -> double
+// ld -> long long
+
+// 형변환
+// 형과 형을 똑같이 해주자.
+
+// split
+vector<string> split(string input, string check)
+{
+	vector<string> ret;
+	string token;
+	long long pos = 0;
+	while ((pos = input.find(check)) != string::npos)
+	{
+		token = input.substr(0, pos);
+		ret.push_back(token);
+		input.erase(0, pos + check.length());
+	}
+	ret.push_back(input);
+	return ret;
+}
+
+// atoi(s.c_str())
+// 만약 입력받은 문자열이 문자라면 0 반환, 아니라면 숫자 반환
+
+tie(a, b) = pa;
+
+// greater<int>() : 내림차순
+// less<int>() : 오름차순
+
+// vector
+// array
+
+struct Point
+{
+	int x, y;
+	bool operator < (const Point& a) const
+	{
+		if (x == a.x)
+			return y < a.y;
+
+		return x < a.x;	// 오름차순
+	}
+};
+
+// priority_queue -> 주로 다익스트라, 그리디 등에 쓰임
+priority_queue<int, vector<int>, greater<int>()> pq;	// 오름차순
+
+// 순열
+// nPr = n! / (n-r)!
+do
+{
+
+} while (next_permutation(v.begin(), v.end));
+
+// 조합
+// nCr = n! / r!(n-r)!
+
+void Combi(int n, int r, int start, vector<int>& now)
+{
+	if (now.size() == r)
+	{
+		// 로직
+	}
+	for (int i = start + 1; i < n; i++)
+	{
+		now.push_back(input[i]);
+		Combi(n, r, i, now);
+		now.pop_back();
+	}
+}
+
+for (int i = 0; i < n; i++)
+{
+	for (int j = i + 1; j < n; j++)
+	{
+		// 로직
+	}
+}
+
+// 정수론
+// 최대공약수
+int gcd(int a, int b)
+{
+	if (a == 0) return b;
+	return gcd(b % a, a);
+}
+
+int lcm(int a, int b)
+{
+	return a * b / gcd(a, b);
+}
+
+// 에라토스테네스의 체
+void era(int n)
+{
+	vector<bool> eraBool(n + 1);
+
+	for (int i = 2; i <= n; i++)
+	{
+		if (eraBool[i] == true)
+			continue;
+
+		for (int j = 2 * i; j <= n; j += i)
+		{
+			eraBool[i] = true;
+		}
+	}
+	for (int i = 2; i <= n; i++)
+	{
+		if (eraBool[i] == false)
+			cout << i;
+	}
+}
+
+bool isPrime(int n)
+{
+	if (n <= 1) return false;
+	if (n == 2) return true;
+	if (n % 2 == 0) return false;
+	for (int i = 2; i * i <= n; i++)
+	{
+		if (n % i == 0)
+			return false;
+	}
+	return true;
+}
+
+// 등차수열의합
+// n(n+1) / 2 , 3 , 1+2+3 = 6, 3 * 4 / 2 = 6
+
+// 승수, 제곱근 구하기
+// pow, sqrt 사용, double형을 반환하는 것에 주의 (형변환)
+
+// lower_bound, upper_bound
+vector<int> v = { 1,2,3,3,5,7 };
+lower_bound(v.begin(), v.end(), 3) - v.begin();	// 2
+upper_bound(v.begin(), v.end(), 3) - v.begin();	// 4
+
+// 4 -> 4
+// 4 -> 4
+
+// 9 -> 6
+// 9 -> 6
+
+// 0 -> 0
+// 0 -> 0
+
+// 벡터 회전
+rotate(v.begin(), v.begin() + 1, v.end());	// 2, 3, 3, 5, 7, 1
+rotate(v.begin(), v.begin() + v.size() - 1, v.end());	// 7, 1, 2, 3, 3, 5
+
+// 배열의 합
+int sum = accumultae(v.begin(), v.end(), 0);
+
+*max_element(v.begin(), v.end());
+
+// n진법 변환
+int n = 1000;
+int b = 2;
+vector<int> ret;
+while (n > 1)
+{
+	ret.push_back(n% b);
+	n /= b;
+}
+if (n == 1)ret.push_back(1);
+reverse(ret.begin(), ret.end());
+
+// 2차원 배열 회전 함수
+void Rotate90(vector<vector<int>>& key)
+{
+	int m = key.size();
+	vector<vector<int>> temp;
+	// 왼쪽으로 90도 회전
+	for (int i = 0; i < m; i++)
+	{
+		for (int j = 0; j < m; j++)
+		{
+			temp[i][j] = key[j][m - i - 1];
+		}
+	}
+	key = temp;
+}
