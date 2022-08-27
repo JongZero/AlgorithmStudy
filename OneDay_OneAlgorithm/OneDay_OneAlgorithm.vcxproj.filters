@@ -1204,5 +1204,17 @@
     <ClCompile Include="2-D.cpp">
       <Filter>10주완성 C++ 코딩테스트 인프런 강의\2주차</Filter>
     </ClCompile>
+    <ClCompile Include="1-J-4.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\1주차\1주차 복습</Filter>
+    </ClCompile>
+    <ClCompile Include="1-M-3.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\1주차\1주차 복습</Filter>
+    </ClCompile>
+    <ClCompile Include="1-N-3.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\1주차\1주차 복습</Filter>
+    </ClCompile>
+    <ClCompile Include="1-O-3.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\1주차\1주차 복습</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
