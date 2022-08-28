@@ -34,3 +34,5 @@ vector<string> split(string input, string check)
 	return ret;
 }
 
+// atoi(s.c_str())	// 문자인 경우 0을 반환한다.
+
