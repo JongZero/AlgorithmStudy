@@ -506,6 +506,12 @@
     <Filter Include="10주완성 C++ 코딩테스트 인프런 강의\2주차\2주차 복습\2-F">
       <UniqueIdentifier>{ece1bdd4-01da-4d65-a746-91af82bebef1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="10주완성 C++ 코딩테스트 인프런 강의\2주차\2주차 복습\2-K">
+      <UniqueIdentifier>{b4085bcb-7bb9-40c8-8599-3330eea0c91c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10주완성 C++ 코딩테스트 인프런 강의\2주차\2주차 복습\2-L">
+      <UniqueIdentifier>{8b05fd5e-9d61-442e-bb3b-64e40caca622}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1008.cpp">
@@ -1272,6 +1278,42 @@
     </ClCompile>
     <ClCompile Include="2-H.cpp">
       <Filter>10주완성 C++ 코딩테스트 인프런 강의\2주차</Filter>
+    </ClCompile>
+    <ClCompile Include="1-J-6.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\1주차\1주차 복습\1-J</Filter>
+    </ClCompile>
+    <ClCompile Include="1-M-5.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\1주차\1주차 복습\1-M</Filter>
+    </ClCompile>
+    <ClCompile Include="1-N-5.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\1주차\1주차 복습\1-N</Filter>
+    </ClCompile>
+    <ClCompile Include="1-O-5.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\1주차\1주차 복습\1-O</Filter>
+    </ClCompile>
+    <ClCompile Include="2-E-2.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\2주차\2주차 복습\2-E</Filter>
+    </ClCompile>
+    <ClCompile Include="2-F-2.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\2주차\2주차 복습\2-F</Filter>
+    </ClCompile>
+    <ClCompile Include="2-I.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\2주차</Filter>
+    </ClCompile>
+    <ClCompile Include="2-J.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\2주차</Filter>
+    </ClCompile>
+    <ClCompile Include="2-K.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\2주차</Filter>
+    </ClCompile>
+    <ClCompile Include="2-K-1.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\2주차\2주차 복습\2-K</Filter>
+    </ClCompile>
+    <ClCompile Include="2-L.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\2주차</Filter>
+    </ClCompile>
+    <ClCompile Include="2-L-1.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\2주차\2주차 복습\2-L</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
