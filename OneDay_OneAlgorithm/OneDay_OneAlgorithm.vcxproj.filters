@@ -530,6 +530,12 @@
     <Filter Include="10주완성 C++ 코딩테스트 인프런 강의\3주차\3주차 복습\3-D">
       <UniqueIdentifier>{0c2c1d58-1906-4bf3-aa83-b7c5574ec782}</UniqueIdentifier>
     </Filter>
+    <Filter Include="10주완성 C++ 코딩테스트 인프런 강의\3주차\3주차 복습\3-E">
+      <UniqueIdentifier>{fa42f326-10c0-4fd5-a4ff-e5790e426dba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10주완성 C++ 코딩테스트 인프런 강의\3주차\3주차 복습\3-F">
+      <UniqueIdentifier>{b19bb279-0b7c-421a-bd39-e8d70ac5d6da}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1008.cpp">
@@ -1440,6 +1446,42 @@
     </ClCompile>
     <ClCompile Include="3-D-1.cpp">
       <Filter>10주완성 C++ 코딩테스트 인프런 강의\3주차\3주차 복습\3-D</Filter>
+    </ClCompile>
+    <ClCompile Include="2-E-6.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\2주차\2주차 복습\2-E</Filter>
+    </ClCompile>
+    <ClCompile Include="2-F-6.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\2주차\2주차 복습\2-F</Filter>
+    </ClCompile>
+    <ClCompile Include="2-K-5.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\2주차\2주차 복습\2-K</Filter>
+    </ClCompile>
+    <ClCompile Include="2-L-5.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\2주차\2주차 복습\2-L</Filter>
+    </ClCompile>
+    <ClCompile Include="2-Q-2.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\2주차\2주차 복습\2-Q</Filter>
+    </ClCompile>
+    <ClCompile Include="2-R-2.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\2주차\2주차 복습\2-R</Filter>
+    </ClCompile>
+    <ClCompile Include="2-S-2.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\2주차\2주차 복습\2-S</Filter>
+    </ClCompile>
+    <ClCompile Include="3-D-2.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\3주차\3주차 복습\3-D</Filter>
+    </ClCompile>
+    <ClCompile Include="3-E.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\3주차</Filter>
+    </ClCompile>
+    <ClCompile Include="3-E-1.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\3주차\3주차 복습\3-E</Filter>
+    </ClCompile>
+    <ClCompile Include="3-F.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\3주차</Filter>
+    </ClCompile>
+    <ClCompile Include="3-F-1.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\3주차\3주차 복습\3-F</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
