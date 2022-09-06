@@ -545,6 +545,12 @@
     <Filter Include="10주완성 C++ 코딩테스트 인프런 강의\3주차\3주차 복습\3-K">
       <UniqueIdentifier>{24a31ef5-60a9-4a77-ba8b-5d7cdd5b1bfc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="10주완성 C++ 코딩테스트 인프런 강의\3주차\3주차 복습\3-O">
+      <UniqueIdentifier>{f45d38f4-c6e2-4178-9770-a5b5f9634258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10주완성 C++ 코딩테스트 인프런 강의\7주차">
+      <UniqueIdentifier>{c7255027-fe27-461e-9ea5-20225af89500}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1008.cpp">
@@ -1617,6 +1623,30 @@
     </ClCompile>
     <ClCompile Include="3-P.cpp">
       <Filter>10주완성 C++ 코딩테스트 인프런 강의\3주차</Filter>
+    </ClCompile>
+    <ClCompile Include="3-D-6.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\3주차\3주차 복습\3-D</Filter>
+    </ClCompile>
+    <ClCompile Include="3-E-5.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\3주차\3주차 복습\3-E</Filter>
+    </ClCompile>
+    <ClCompile Include="3-F-5.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\3주차\3주차 복습\3-F</Filter>
+    </ClCompile>
+    <ClCompile Include="3-H-5.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\3주차\3주차 복습\3-H</Filter>
+    </ClCompile>
+    <ClCompile Include="3-I-4.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\3주차\3주차 복습\3-I</Filter>
+    </ClCompile>
+    <ClCompile Include="3-K-4.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\3주차\3주차 복습\3-K</Filter>
+    </ClCompile>
+    <ClCompile Include="3-O-1.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\3주차\3주차 복습\3-O</Filter>
+    </ClCompile>
+    <ClCompile Include="7주차 개념강의.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\7주차</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
