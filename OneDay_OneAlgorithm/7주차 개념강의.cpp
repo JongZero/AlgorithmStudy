@@ -28,7 +28,8 @@
 // 예를 들어 양방향 간선이 존재하거나 사이클이 있는 그래프 같은 경우 preprocess를 통해
 // DAG를 만들어 DP 문제를 풀어야 한다.
 
-// 2240, 자두나무
+/*
+// 2240, 자두나무 - 틀림(모르겠음)
 #include<bits/stdc++.h>
 using namespace std;
 int dp[1004][2][34], n, m, b[1004];
@@ -59,4 +60,75 @@ int main() {
     int go2 = go(0, 0, m);
     cout << max(go1, go2) << '\n';
     return 0;
+}
+*/
+
+/*
+// 15989, 1,2,3 더하기 4 - 틀림(모르겠음)
+#include<bits/stdc++.h>
+using namespace std;
+
+int dp[10001];
+
+int main()
+{
+	std::ios_base::sync_with_stdio(false);
+	std::cin.tie(NULL);
+	std::cout.tie(NULL);
+
+    dp[0] = 1;
+    for (int i = 1; i <= 3; i++)
+    {
+        for (int j = 1; j <= 10000; j++)
+        {
+            dp[j] += dp[j - i];
+        }
+    }
+
+    int t = 0;
+    cin >> t;
+    while (t--)
+    {
+        int n = 0;
+        cin >> n;
+        cout << dp[n] << '\n';
+    }
+
+    return 0;
+}
+*/
+
+// 2748, 피보나치 수 2 - 맞음
+#include<bits/stdc++.h>
+using namespace std;
+
+long long n, dp[91];
+long long fibo(int s)
+{
+    cout << "s : " << s << '\n';
+    long long f1 = 0;
+    long long f2 = 0;
+    if (dp[s - 1] == -1) dp[s - 1] = fibo(s - 1);
+    if (dp[s - 2] == -1) dp[s - 2] = fibo(s - 2);
+    f1 = dp[s - 1];
+    f2 = dp[s - 2];
+    return f1 + f2;
+}
+
+int main()
+{
+	std::ios_base::sync_with_stdio(false);
+	std::cin.tie(NULL);
+	std::cout.tie(NULL);
+
+    memset(dp, -1, sizeof(dp));
+
+    dp[0] = 0;
+    dp[1] = 1;
+
+    cin >> n;
+    if (n == 0 || n == 1) cout << dp[n];
+    else cout << fibo(n);
+
+	return 0;
 }
