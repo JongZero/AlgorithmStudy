@@ -1888,5 +1888,32 @@
     <ClCompile Include="7-O.cpp">
       <Filter>10주완성 C++ 코딩테스트 인프런 강의\7주차</Filter>
     </ClCompile>
+    <ClCompile Include="7-B-7.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\7주차\7주차 복습\7-B</Filter>
+    </ClCompile>
+    <ClCompile Include="7-C-7.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\7주차\7주차 복습\7-C</Filter>
+    </ClCompile>
+    <ClCompile Include="7-F-6.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\7주차\7주차 복습\7-F</Filter>
+    </ClCompile>
+    <ClCompile Include="7-G-6.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\7주차\7주차 복습\7-G</Filter>
+    </ClCompile>
+    <ClCompile Include="7-H-4.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\7주차\7주차 복습\7-H</Filter>
+    </ClCompile>
+    <ClCompile Include="7-I-4.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\7주차\7주차 복습\7-I</Filter>
+    </ClCompile>
+    <ClCompile Include="7-J-4.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\7주차\7주차 복습\7-J</Filter>
+    </ClCompile>
+    <ClCompile Include="7-K-4.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\7주차\7주차 복습\7-K</Filter>
+    </ClCompile>
+    <ClCompile Include="7-N-2.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\7주차\7주차 복습\7-N</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
