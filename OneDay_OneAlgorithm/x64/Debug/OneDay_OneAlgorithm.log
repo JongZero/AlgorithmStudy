@@ -1,2 +1,3 @@
-﻿  7-N-3.cpp
+﻿  7-O.cpp
+D:\Git\AlgorithmStudy\OneDay_OneAlgorithm\7-O.cpp(113,27): warning C4267: 'return': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   OneDay_OneAlgorithm.vcxproj -> D:\Git\AlgorithmStudy\x64\Debug\OneDay_OneAlgorithm.exe
