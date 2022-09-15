@@ -1915,5 +1915,26 @@
     <ClCompile Include="7-N-2.cpp">
       <Filter>10주완성 C++ 코딩테스트 인프런 강의\7주차\7주차 복습\7-N</Filter>
     </ClCompile>
+    <ClCompile Include="7-F-7.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\7주차\7주차 복습\7-F</Filter>
+    </ClCompile>
+    <ClCompile Include="7-G-7.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\7주차\7주차 복습\7-G</Filter>
+    </ClCompile>
+    <ClCompile Include="7-H-5.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\7주차\7주차 복습\7-H</Filter>
+    </ClCompile>
+    <ClCompile Include="7-I-5.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\7주차\7주차 복습\7-I</Filter>
+    </ClCompile>
+    <ClCompile Include="7-J-5.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\7주차\7주차 복습\7-J</Filter>
+    </ClCompile>
+    <ClCompile Include="7-K-5.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\7주차\7주차 복습\7-K</Filter>
+    </ClCompile>
+    <ClCompile Include="7-N-3.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\7주차\7주차 복습\7-N</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
