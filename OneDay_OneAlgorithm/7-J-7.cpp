@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int n, k, dp[10001];
+int dp[100001];
 
 int main()
 {
@@ -9,15 +9,15 @@ int main()
 	std::cin.tie(NULL);
 	std::cout.tie(NULL);
 
+	int n, k;
 	cin >> n >> k;
-	dp[0] = 1;
 	for (int i = 0; i < n; i++)
 	{
-		int t = 0;
-		cin >> t;
-		for (int j = t; j <= k; j++)
+		int w, v;
+		cin >> w >> v;
+		for (int j = k; j >= w; j--)
 		{
-			dp[j] += dp[j - t];
+			dp[j] = max(dp[j], dp[j - w] + v);
 		}
 	}
 	cout << dp[k];

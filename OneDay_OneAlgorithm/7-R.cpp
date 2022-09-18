@@ -25,18 +25,33 @@ int main()
 			if (a[s] == a[e]) 
 			{ 
 				dp[s][e] = 1;
-				cout << s << ", " << e << "는 팰린드롬이다.\n";
+				//cout << s << ", " << e << "는 팰린드롬이다.\n";
 			}
 			else break;
 		}
 		// 짝수
-		for (int i = 1; i <= 1000; i++)
+		for (int i = 0; i <= 1000; i++)
 		{
 			int s = c;
 			int e = s + i;
-
 			int s2 = e + 1;
 			int e2 = s2 + i;
+			if (e > n || s2 > n || e2 > n) break;
+
+			dp[s][e2] = 1;
+			int w = e2;
+			for (int q = s; q <= e; q++, w--)
+			{
+				if (a[q] != a[w])
+				{
+					dp[s][e2] = 0;
+					break;
+				}
+			}
+			if (dp[s][e2])
+			{
+				//cout << s << ", " << e2 << "는 팰린드롬이다.\n";
+			}
 		}
 	}
 
