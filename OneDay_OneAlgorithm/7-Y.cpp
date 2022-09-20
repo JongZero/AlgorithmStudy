@@ -7,5 +7,12 @@ int main()
 	std::cin.tie(NULL);
 	std::cout.tie(NULL);
 
+	int t = 0;
+	cin >> t;
+	while (t--)
+	{
+		int n = 0;
+		cin >> n;
 
+	}
 }

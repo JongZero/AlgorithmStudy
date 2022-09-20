@@ -2047,5 +2047,17 @@
     <ClCompile Include="7-Y.cpp">
       <Filter>10주완성 C++ 코딩테스트 인프런 강의\7주차</Filter>
     </ClCompile>
+    <ClCompile Include="7-P-4.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\7주차\7주차 복습\7-P</Filter>
+    </ClCompile>
+    <ClCompile Include="7-Q-4.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\7주차\7주차 복습\7-Q</Filter>
+    </ClCompile>
+    <ClCompile Include="7-S-4.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\7주차\7주차 복습\7-S</Filter>
+    </ClCompile>
+    <ClCompile Include="7-V-3.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\7주차\7주차 복습\7-V</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
