@@ -83,5 +83,5 @@ int solution(int N, int number) {
 
 void main()
 {
-	cout << "ANSWER : " << solution(5, 12);
+	cout << "ANSWER : " << solution(3, 7);
 }
