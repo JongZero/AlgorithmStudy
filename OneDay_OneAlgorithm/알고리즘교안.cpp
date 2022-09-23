@@ -495,7 +495,7 @@ int ret = (int)sqrt(n);
 	// 왼쪽으로 90도
 	void rotate90(vector<vector<int>>& key)
 	{
-		int m = key.size();
+		int _ = key.size();
 		vector<vector<int>> temp(m, vector<int>(m, 0));
 		for (int i = 0; i < m; i++)
 		{
