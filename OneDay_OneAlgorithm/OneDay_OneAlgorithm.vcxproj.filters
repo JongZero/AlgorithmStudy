@@ -2083,5 +2083,8 @@
     <ClCompile Include="7-P-6.cpp">
       <Filter>10주완성 C++ 코딩테스트 인프런 강의\7주차\7주차 복습\7-P</Filter>
     </ClCompile>
+    <ClCompile Include="7-프로그래머스-2.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\7주차</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
