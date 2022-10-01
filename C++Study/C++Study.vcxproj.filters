@@ -94,6 +94,9 @@
     <ClCompile Include="set에서의 emplace와 insert.cpp">
       <Filter>Intern</Filter>
     </ClCompile>
+    <ClCompile Include="dynamic_cast_Test.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="1장_직원관리시스템_0606.h">
