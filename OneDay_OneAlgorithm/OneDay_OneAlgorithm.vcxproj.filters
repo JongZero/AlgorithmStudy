@@ -2098,5 +2098,8 @@
     <ClCompile Include="3-O-4.cpp">
       <Filter>10주완성 C++ 코딩테스트 인프런 강의\3주차\3주차 복습\3-O</Filter>
     </ClCompile>
+    <ClCompile Include="2-Q-6.cpp">
+      <Filter>10주완성 C++ 코딩테스트 인프런 강의\2주차\2주차 복습\2-Q</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
