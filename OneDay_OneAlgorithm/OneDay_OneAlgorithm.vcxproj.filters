@@ -596,6 +596,9 @@
     <Filter Include="10주완성 C++ 코딩테스트 인프런 강의\7주차\7주차 복습\7-V">
       <UniqueIdentifier>{c6a1023d-48be-4be2-ba8c-2d30b1756545}</UniqueIdentifier>
     </Filter>
+    <Filter Include="알고리즘 문제풀이\22_10">
+      <UniqueIdentifier>{1e39dd3b-1184-4be4-9e91-603f1a1aadf4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1008.cpp">
@@ -2106,6 +2109,9 @@
     </ClCompile>
     <ClCompile Include="7-B-8.cpp">
       <Filter>10주완성 C++ 코딩테스트 인프런 강의\7주차\7주차 복습\7-B</Filter>
+    </ClCompile>
+    <ClCompile Include="25304.cpp">
+      <Filter>알고리즘 문제풀이\22_10</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
