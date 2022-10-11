@@ -2113,5 +2113,8 @@
     <ClCompile Include="25304.cpp">
       <Filter>알고리즘 문제풀이\22_10</Filter>
     </ClCompile>
+    <ClCompile Include="프로그래머스_숫자게임.cpp">
+      <Filter>알고리즘 문제풀이\22_10</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
