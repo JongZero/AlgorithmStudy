@@ -2128,5 +2128,8 @@
     <ClCompile Include="25501.cpp">
       <Filter>알고리즘 문제풀이\22_10</Filter>
     </ClCompile>
+    <ClCompile Include="9095.cpp">
+      <Filter>알고리즘 문제풀이\22_10</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
