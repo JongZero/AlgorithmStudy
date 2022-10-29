@@ -13,15 +13,18 @@ int main()
 		cin >> t;
 		if (t == "0") break;
 
-		stack<char> s;
-		for (int i = 0; i < t.size(); i++)
-		{
-			if (s.size() > 0)
-			{
+		string s = t.substr(0, t.size() / 2);
+		string e;
+		if (t.size() % 2 == 0)
+			e = t.substr(t.size() / 2);
+		else
+			e = t.substr(t.size() / 2 + 1);
 
-			}
-			
-			s.push(t[i]);
-		}
+		reverse(e.begin(), e.end());
+		if (s == e)
+			cout << "yes";
+		else
+			cout << "no";
+		cout << '\n';
 	}
 }
