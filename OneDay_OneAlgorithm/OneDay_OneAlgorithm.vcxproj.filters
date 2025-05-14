@@ -2164,5 +2164,8 @@
     <ClCompile Include="프로그래머스_신고결과받기.cpp">
       <Filter>알고리즘 문제풀이\25_05</Filter>
     </ClCompile>
+    <ClCompile Include="프로그래머스_개인정보수집유효기간.cpp">
+      <Filter>알고리즘 문제풀이\25_05</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
