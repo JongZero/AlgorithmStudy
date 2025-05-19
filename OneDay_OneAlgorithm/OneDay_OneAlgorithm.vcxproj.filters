@@ -2173,5 +2173,8 @@
     <ClCompile Include="프로그래머스_달리기경주.cpp">
       <Filter>알고리즘 문제풀이\25_05</Filter>
     </ClCompile>
+    <ClCompile Include="프로그래머스_정수를나선형으로배치하기.cpp">
+      <Filter>알고리즘 문제풀이\25_05</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
