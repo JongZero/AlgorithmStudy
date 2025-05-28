@@ -2188,5 +2188,8 @@
     <ClCompile Include="프로그래머스_안전지대.cpp">
       <Filter>알고리즘 문제풀이\25_05</Filter>
     </ClCompile>
+    <ClCompile Include="프로그래머스_키패드누르기.cpp">
+      <Filter>알고리즘 문제풀이\25_05</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
