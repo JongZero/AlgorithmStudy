@@ -605,6 +605,9 @@
     <Filter Include="알고리즘 문제풀이\25_05">
       <UniqueIdentifier>{051cfc99-fd14-4a25-a044-019c93ccbfd4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="알고리즘 문제풀이\25_06">
+      <UniqueIdentifier>{9f8787d8-cefe-40b9-9fd1-3107fac2d3d8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1008.cpp">
@@ -2196,6 +2199,9 @@
     </ClCompile>
     <ClCompile Include="프로그래머스_하샤드수.cpp">
       <Filter>알고리즘 문제풀이\25_05</Filter>
+    </ClCompile>
+    <ClCompile Include="프로그래머스_네트워크.cpp">
+      <Filter>알고리즘 문제풀이\25_06</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
