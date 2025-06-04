@@ -1,49 +1,67 @@
 #include <string>
 #include <vector>
+#include <map>
+#include <iostream>
 
 using namespace std;
 
 int answer = 0;
-bool visited[200][200]{};
+vector<bool> isVisitedVec;
 
-void solve(int x, int y, int d, int n, vector<vector<int>>& computers)
+void Func(map<int, vector<int>>& comMap, const int& i)
 {
-	if (visited[x][y] == true) {
-		return;
-	}
-	visited[x][y] = true;
+	isVisitedVec[i] = true;
 
-	if (d > answer) {
-		answer = d;
-	}
-	d++;
+	// 간선이 있다면
+	if (comMap.count(i) > 0)
+	{
+		for (int j = 0; j < comMap[i].size(); j++)
+		{
+			if (isVisitedVec[comMap[i][j]] == true)
+				continue;
 
-	int dx[4] = { 0, 0, -1, 1 };
-	int dy[4] = { -1, 1, 0, 0 };
-
-	for (int i = 0; i < 4; ++i) {
-		int _x = x + dx[i];
-		int _y = y + dy[i];
-
-		if (_x < 0 || _x >= n || _y < 0 || _y >= n) {
-			continue;
-		}
-
-		if (computers[_x][_y] == 1) {
-			solve(_x, _y, d, n, computers);
+			isVisitedVec[comMap[i][j]] = true;
+			Func(comMap, comMap[i][j]);
 		}
 	}
 }
 
-int main() {
+int solution(int n, vector<vector<int>> computers)
+{
+	isVisitedVec.resize(n);
 
-	int n = 3;
-	vector<vector<int>> computers = { {1, 1, 0 }, { 1, 1, 0 }, { 0, 0, 1 } };
+	map<int, vector<int>> comMap;
+	for (int i = 0; i < n; i++)
+	{
+		for (int j = 0; j < n; j++)
+		{
+			// 자기 자신이거나 연결되어 있지 않은 경우
+			if (i == j || computers[i][j] == 0)
+				continue;
 
-	for (int i = 0; i < n; ++i) {
-		for (int j = 0; j < n; ++j) {
-			solve(i, j, 0, n, computers);
+			comMap[i].emplace_back(j);
 		}
+	}
+
+	int checkI = 0;
+	while (true)
+	{
+		bool isNotVisited = false;
+		for (int i = 0; i < n; i++)
+		{
+			if (isVisitedVec[i] == false)
+			{
+				isNotVisited = true;
+				checkI = i;
+				break;
+			}
+		}
+
+		if (isNotVisited == false)
+			break;
+
+		Func(comMap, checkI);
+		answer++;
 	}
 
 	return answer;
