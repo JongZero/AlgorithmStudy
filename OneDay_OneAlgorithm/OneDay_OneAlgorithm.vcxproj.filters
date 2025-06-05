@@ -2203,5 +2203,8 @@
     <ClCompile Include="프로그래머스_네트워크.cpp">
       <Filter>알고리즘 문제풀이\25_06</Filter>
     </ClCompile>
+    <ClCompile Include="프로그래머스_콜라츠추측.cpp">
+      <Filter>알고리즘 문제풀이\25_06</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
