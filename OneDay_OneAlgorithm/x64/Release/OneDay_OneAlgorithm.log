@@ -1,30 +1,5 @@
-﻿  1010.cpp
-C:\Users\정종영\Desktop\Git\AlgorithmStudy\OneDay_OneAlgorithm\1010.cpp(33,2): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  10773.cpp
-  10814.cpp
-  15649.cpp
-  15650.cpp
-  15651.cpp
-  18108.cpp
-  2480.cpp
-  25083.cpp
-  3003.cpp
-10773.obj : error LNK2005: main이(가) 1010.obj에 이미 정의되어 있습니다.
-10814.obj : error LNK2005: main이(가) 1010.obj에 이미 정의되어 있습니다.
-15649.obj : error LNK2005: main이(가) 1010.obj에 이미 정의되어 있습니다.
-15650.obj : error LNK2005: "int g_N" (?g_N@@3HA)이(가) 15649.obj에 이미 정의되어 있습니다.
-15650.obj : error LNK2005: "bool * g_Visited" (?g_Visited@@3PA_NA)이(가) 15649.obj에 이미 정의되어 있습니다.
-15650.obj : error LNK2005: "int g_M" (?g_M@@3HA)이(가) 15649.obj에 이미 정의되어 있습니다.
-15650.obj : error LNK2005: "int * g_Array" (?g_Array@@3PAHA)이(가) 15649.obj에 이미 정의되어 있습니다.
-15650.obj : error LNK2005: main이(가) 1010.obj에 이미 정의되어 있습니다.
-15650.obj : error LNK2005: "void __cdecl Func(int)" (?Func@@YAXH@Z)이(가) 15649.obj에 이미 정의되어 있습니다.
-15651.obj : error LNK2005: "int g_N" (?g_N@@3HA)이(가) 15649.obj에 이미 정의되어 있습니다.
-15651.obj : error LNK2005: "int g_M" (?g_M@@3HA)이(가) 15649.obj에 이미 정의되어 있습니다.
-15651.obj : error LNK2005: "int * g_Array" (?g_Array@@3PAHA)이(가) 15649.obj에 이미 정의되어 있습니다.
-15651.obj : error LNK2005: main이(가) 1010.obj에 이미 정의되어 있습니다.
-15651.obj : error LNK2005: "void __cdecl Func(int)" (?Func@@YAXH@Z)이(가) 15649.obj에 이미 정의되어 있습니다.
-18108.obj : error LNK2005: main이(가) 1010.obj에 이미 정의되어 있습니다.
-2480.obj : error LNK2005: main이(가) 1010.obj에 이미 정의되어 있습니다.
-25083.obj : error LNK2005: main이(가) 1010.obj에 이미 정의되어 있습니다.
-3003.obj : error LNK2005: main이(가) 1010.obj에 이미 정의되어 있습니다.
-C:\Users\정종영\Desktop\Git\AlgorithmStudy\x64\Release\OneDay_OneAlgorithm.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.
+﻿  코드를 생성하고 있습니다.
+  Previous IPDB not found, fall back to full compilation.
+  All 12 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  OneDay_OneAlgorithm.vcxproj -> D:\Git\AlgorithmStudy\x64\Release\OneDay_OneAlgorithm.exe
